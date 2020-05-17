@@ -43,6 +43,11 @@ $config = [
             ],
         ],
         'db' => $db,
+        'authManager' => [
+            'class' => \yii\rbac\DbManager::class,
+            'cache' => 'localCache'
+
+        ],
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,

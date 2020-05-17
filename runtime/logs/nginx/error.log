@@ -1,0 +1,14 @@
+2020/05/17 17:55:29 [error] 6#6: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.99.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.102:8500"
+2020/05/17 17:55:29 [error] 6#6: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.99.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "192.168.99.102:8500", referrer: "http://192.168.99.102:8500/"
+2020/05/17 18:05:23 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:33
+2020/05/17 18:05:54 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:33
+2020/05/17 18:07:51 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:33
+2020/05/17 18:32:12 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:33
+2020/05/17 18:33:21 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:33
+2020/05/17 18:34:00 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:33
+2020/05/17 18:35:35 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:33
+2020/05/17 18:36:06 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:33
+2020/05/17 18:38:37 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:33
+2020/05/17 18:41:53 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:33
+2020/05/17 18:43:43 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:33
+2020/05/17 18:51:41 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:33
