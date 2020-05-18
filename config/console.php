@@ -30,10 +30,7 @@ $config = [
         'db' => $db,
         'authManager' => [
             'class' => DbManager::class,
-            'cache' => 'localCache'
-
         ],
-
     ],
     'params' => $params,
     /*
