@@ -1,5 +1,7 @@
 <?php
 
+use yii\rbac\DbManager;
+
 $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
@@ -26,6 +28,12 @@ $config = [
             ],
         ],
         'db' => $db,
+        'authManager' => [
+            'class' => DbManager::class,
+            'cache' => 'localCache'
+
+        ],
+
     ],
     'params' => $params,
     /*

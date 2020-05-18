@@ -12,3 +12,6 @@
 2020/05/17 18:41:53 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:33
 2020/05/17 18:43:43 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:33
 2020/05/17 18:51:41 [emerg] 1#1: unexpected "}" in /etc/nginx/nginx.conf:33
+2020/05/18 15:23:32 [crit] 7#7: *1 connect() to unix:/var/run/php7-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php7-fpm.sock:", host: "192.168.99.102:8500"
+2020/05/18 15:23:34 [crit] 7#7: *1 connect() to unix:/var/run/php7-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php7-fpm.sock:", host: "192.168.99.102:8500"
+2020/05/18 15:23:35 [crit] 7#7: *1 connect() to unix:/var/run/php7-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 192.168.99.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php7-fpm.sock:", host: "192.168.99.102:8500"

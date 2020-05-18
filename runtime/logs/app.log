@@ -376,3 +376,1278 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2020-05-17 19:12:28 [192.168.99.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.99.1
+    in /var/www/views/layouts/main.php:79
+    in /var/www/controllers/SiteController.php:126
+2020-05-17 19:12:28 [192.168.99.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.99.1
+2020-05-17 19:12:28 [192.168.99.1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '42e4e9165bd50e405e3d45da35a7726c'
+    '_csrf' => 'd1b9a5d0f8cb9493c996a283184f56776f5e6a763792d5e4ae3e4c5210c75b3ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TOe27_UIMybZrEpnSgI-8sin56kboS4Q\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_COOKIE' => 'PHPSESSID=42e4e9165bd50e405e3d45da35a7726c; _csrf=d1b9a5d0f8cb9493c996a283184f56776f5e6a763792d5e4ae3e4c5210c75b3ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TOe27_UIMybZrEpnSgI-8sin56kboS4Q%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.4'
+    'REMOTE_PORT' => '50231'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589742748.4661
+    'REQUEST_TIME' => 1589742748
+    'argv' => [
+        0 => 'r=site%2Fabout'
+    ]
+    'argc' => 1
+]
+2020-05-18 15:23:48 [192.168.99.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.99.1
+    in /var/www/views/layouts/main.php:79
+    in /var/www/controllers/SiteController.php:64
+2020-05-18 15:23:48 [192.168.99.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.99.1
+2020-05-18 15:23:47 [192.168.99.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '42e4e9165bd50e405e3d45da35a7726c'
+    '_csrf' => 'd1b9a5d0f8cb9493c996a283184f56776f5e6a763792d5e4ae3e4c5210c75b3ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TOe27_UIMybZrEpnSgI-8sin56kboS4Q\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'cfde04008d1b'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=42e4e9165bd50e405e3d45da35a7726c; _csrf=d1b9a5d0f8cb9493c996a283184f56776f5e6a763792d5e4ae3e4c5210c75b3ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TOe27_UIMybZrEpnSgI-8sin56kboS4Q%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.4'
+    'REMOTE_PORT' => '60631'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589815427.5599
+    'REQUEST_TIME' => 1589815427
+    'argv' => []
+    'argc' => 0
+]
+2020-05-18 15:51:29 [192.168.99.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.99.1
+    in /var/www/views/layouts/main.php:79
+    in /var/www/controllers/SiteController.php:64
+2020-05-18 15:51:29 [192.168.99.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.99.1
+2020-05-18 15:51:29 [192.168.99.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '42e4e9165bd50e405e3d45da35a7726c'
+    '_csrf' => 'd1b9a5d0f8cb9493c996a283184f56776f5e6a763792d5e4ae3e4c5210c75b3ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TOe27_UIMybZrEpnSgI-8sin56kboS4Q\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'cef8e8764f43'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=42e4e9165bd50e405e3d45da35a7726c; _csrf=d1b9a5d0f8cb9493c996a283184f56776f5e6a763792d5e4ae3e4c5210c75b3ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TOe27_UIMybZrEpnSgI-8sin56kboS4Q%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.4'
+    'REMOTE_PORT' => '61589'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589817089.3117
+    'REQUEST_TIME' => 1589817089
+    'argv' => []
+    'argc' => 0
+]
+2020-05-18 15:54:36 [192.168.99.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.99.1
+    in /var/www/views/layouts/main.php:79
+    in /var/www/controllers/SiteController.php:64
+2020-05-18 15:54:36 [192.168.99.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.99.1
+2020-05-18 15:54:36 [192.168.99.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '42e4e9165bd50e405e3d45da35a7726c'
+    '_csrf' => 'd1b9a5d0f8cb9493c996a283184f56776f5e6a763792d5e4ae3e4c5210c75b3ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TOe27_UIMybZrEpnSgI-8sin56kboS4Q\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'cef8e8764f43'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=42e4e9165bd50e405e3d45da35a7726c; _csrf=d1b9a5d0f8cb9493c996a283184f56776f5e6a763792d5e4ae3e4c5210c75b3ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TOe27_UIMybZrEpnSgI-8sin56kboS4Q%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.4'
+    'REMOTE_PORT' => '61952'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589817276.1634
+    'REQUEST_TIME' => 1589817276
+    'argv' => []
+    'argc' => 0
+]
+2020-05-18 16:04:06 [-][-][-][error][yii\db\Exception] PDOException: could not find driver in C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php:705
+Stack trace:
+#0 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(705): PDO->__construct('mysql:host=db;d...', 'root', '123456', NULL)
+#1 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1022): yii\db\Connection->open()
+#3 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(255): yii\db\Connection->getSlavePdo()
+#5 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(1154): yii\db\Command->prepare(true)
+#6 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#8 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#15 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#18 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#19 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#20 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#21 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 C:\Users\max\Desktop\phphello\yii(20): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: could not find driver in C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php:637
+Stack trace:
+#0 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1022): yii\db\Connection->open()
+#1 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(255): yii\db\Connection->getSlavePdo()
+#3 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(1154): yii\db\Command->prepare(true)
+#4 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#6 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#11 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#13 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#16 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#17 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#18 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#19 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#20 C:\Users\max\Desktop\phphello\yii(20): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2020-05-18 16:04:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_COMMAND' => 'php.exe'
+    'PROMPT' => '$P$G'
+    'ProgramFiles' => 'C:\\Program Files'
+    'DOCKER_MACHINE_NAME' => 'default'
+    'USERNAME' => 'max'
+    'SystemDrive' => 'C:'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PT5HOME' => 'C:\\Program Files (x86)\\Cisco Packet Tracer 6.0'
+    'OS' => 'Windows_NT'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'DOCKER_HOST' => 'tcp://192.168.99.102:2376'
+    'NO_PROXY' => '192.168.99.101,192.168.99.102'
+    'FSHARPINSTALLDIR' => 'C:\\Program Files (x86)\\Microsoft SDKs\\F#\\10.1\\Framework\\v4.0\\'
+    'TMP' => 'C:\\Temp'
+    'LOCALAPPDATA' => 'C:\\Users\\max\\AppData\\Local'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'ProgramData' => 'C:\\ProgramData'
+    'USERPROFILE' => 'C:\\Users\\max'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'USERDOMAIN' => 'HP'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PROCESSOR_LEVEL' => '6'
+    'TEMP' => 'C:\\Temp'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\Users\\max\\Desktop'
+    'DOCKER_TLS_VERIFY' => '1'
+    'ProgramW6432' => 'C:\\Program Files'
+    'APPDATA' => 'C:\\Users\\max\\AppData\\Roaming'
+    'LOGONSERVER' => '\\\\HP'
+    'CLASSPATH' => '.;'
+    'VS140COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DOCKER_CERT_PATH' => 'C:\\Users\\max\\.docker\\machine\\machines\\default'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'JAVA_HOME' => 'C:\\Program Files (x86)\\Java\\jdk1.8.0_131'
+    'windows_tracing_flags' => '3'
+    'SystemRoot' => 'C:\\Windows'
+    'COMPOSE_CONVERT_WINDOWS_PATHS' => 'true'
+    'COMPUTERNAME' => 'HP'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'HOMEPATH' => '\\Users\\max'
+    'DOCKER_TOOLBOX_INSTALL_PATH' => 'C:\\Program Files\\Docker Toolbox'
+    'windir' => 'C:\\Windows'
+    'PT6HOME' => 'C:\\Program Files (x86)\\Cisco Packet Tracer 6.0'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'Path' => 'C:\\Windows\\System32;C:\\Windows;C:\\Program Files (x86)\\Java\\jdk1.8.0_131\\bin;C:\\Users\\��花\\Desktop\\ffmpeg\\ffmpeg-20190420-3a07aec-win64-static\\bin;C:\\Users\\max\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\php\\php-7.3.17;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;D:\\Scripts\\;D:\\;C:\\Users\\��花\\Desktop\\ffmpeg\\ffmpeg-20190420-3a07aec-win64-static\\bin;;C:\\Program Files\\Docker Toolbox;C:\\Users\\max\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\Oracle\\VirtualBox\\'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'YII_PATH' => 'C:\\Users\\max\\Desktop\\phphello\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\max\\AppData\\Roaming\\JetBrains\\PhpStorm2020.1\\terminal\\history\\history-'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+    'SCRIPT_NAME' => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+    'PATH_TRANSLATED' => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1589817846.8881
+    'REQUEST_TIME' => 1589817846
+    'argv' => [
+        0 => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations/'
+    ]
+    'argc' => 3
+]
+2020-05-18 16:04:46 [-][-][-][error][yii\db\Exception] PDOException: could not find driver in C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php:705
+Stack trace:
+#0 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(705): PDO->__construct('mysql:host=db;d...', 'root', '123456', NULL)
+#1 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1022): yii\db\Connection->open()
+#3 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(255): yii\db\Connection->getSlavePdo()
+#5 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(1154): yii\db\Command->prepare(true)
+#6 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#8 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#15 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#18 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#19 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#20 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#21 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 C:\Users\max\Desktop\phphello\yii(20): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: could not find driver in C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php:637
+Stack trace:
+#0 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1022): yii\db\Connection->open()
+#1 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(255): yii\db\Connection->getSlavePdo()
+#3 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(1154): yii\db\Command->prepare(true)
+#4 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#6 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#11 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#13 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#16 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#17 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#18 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#19 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#20 C:\Users\max\Desktop\phphello\yii(20): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2020-05-18 16:04:46 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_COMMAND' => 'php.exe'
+    'PROMPT' => '$P$G'
+    'ProgramFiles' => 'C:\\Program Files'
+    'DOCKER_MACHINE_NAME' => 'default'
+    'USERNAME' => 'max'
+    'SystemDrive' => 'C:'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PT5HOME' => 'C:\\Program Files (x86)\\Cisco Packet Tracer 6.0'
+    'OS' => 'Windows_NT'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'DOCKER_HOST' => 'tcp://192.168.99.102:2376'
+    'NO_PROXY' => '192.168.99.101,192.168.99.102'
+    'FSHARPINSTALLDIR' => 'C:\\Program Files (x86)\\Microsoft SDKs\\F#\\10.1\\Framework\\v4.0\\'
+    'TMP' => 'C:\\Temp'
+    'LOCALAPPDATA' => 'C:\\Users\\max\\AppData\\Local'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'ProgramData' => 'C:\\ProgramData'
+    'USERPROFILE' => 'C:\\Users\\max'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'USERDOMAIN' => 'HP'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PROCESSOR_LEVEL' => '6'
+    'TEMP' => 'C:\\Temp'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\Users\\max\\Desktop'
+    'DOCKER_TLS_VERIFY' => '1'
+    'ProgramW6432' => 'C:\\Program Files'
+    'APPDATA' => 'C:\\Users\\max\\AppData\\Roaming'
+    'LOGONSERVER' => '\\\\HP'
+    'CLASSPATH' => '.;'
+    'VS140COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DOCKER_CERT_PATH' => 'C:\\Users\\max\\.docker\\machine\\machines\\default'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'JAVA_HOME' => 'C:\\Program Files (x86)\\Java\\jdk1.8.0_131'
+    'windows_tracing_flags' => '3'
+    'SystemRoot' => 'C:\\Windows'
+    'COMPOSE_CONVERT_WINDOWS_PATHS' => 'true'
+    'COMPUTERNAME' => 'HP'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'HOMEPATH' => '\\Users\\max'
+    'DOCKER_TOOLBOX_INSTALL_PATH' => 'C:\\Program Files\\Docker Toolbox'
+    'windir' => 'C:\\Windows'
+    'PT6HOME' => 'C:\\Program Files (x86)\\Cisco Packet Tracer 6.0'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'Path' => 'C:\\Windows\\System32;C:\\Windows;C:\\Program Files (x86)\\Java\\jdk1.8.0_131\\bin;C:\\Users\\��花\\Desktop\\ffmpeg\\ffmpeg-20190420-3a07aec-win64-static\\bin;C:\\Users\\max\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\php\\php-7.3.17;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;D:\\Scripts\\;D:\\;C:\\Users\\��花\\Desktop\\ffmpeg\\ffmpeg-20190420-3a07aec-win64-static\\bin;;C:\\Program Files\\Docker Toolbox;C:\\Users\\max\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\Oracle\\VirtualBox\\'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'YII_PATH' => 'C:\\Users\\max\\Desktop\\phphello\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\max\\AppData\\Roaming\\JetBrains\\PhpStorm2020.1\\terminal\\history\\history-'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+    'SCRIPT_NAME' => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+    'PATH_TRANSLATED' => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1589817886.5691
+    'REQUEST_TIME' => 1589817886
+    'argv' => [
+        0 => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations/'
+    ]
+    'argc' => 3
+]
+2020-05-18 16:06:16 [-][-][-][error][yii\db\Exception] PDOException: could not find driver in C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php:705
+Stack trace:
+#0 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(705): PDO->__construct('mysql:host=db;d...', 'root', '123456', NULL)
+#1 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1022): yii\db\Connection->open()
+#3 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(255): yii\db\Connection->getSlavePdo()
+#5 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(1154): yii\db\Command->prepare(true)
+#6 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#8 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#15 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#18 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#19 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#20 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#21 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 C:\Users\max\Desktop\phphello\yii(20): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: could not find driver in C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php:637
+Stack trace:
+#0 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1022): yii\db\Connection->open()
+#1 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(255): yii\db\Connection->getSlavePdo()
+#3 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(1154): yii\db\Command->prepare(true)
+#4 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#6 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#11 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#13 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#16 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#17 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#18 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#19 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#20 C:\Users\max\Desktop\phphello\yii(20): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2020-05-18 16:06:16 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_COMMAND' => 'php.exe'
+    'PROMPT' => '$P$G'
+    'ProgramFiles' => 'C:\\Program Files'
+    'DOCKER_MACHINE_NAME' => 'default'
+    'USERNAME' => 'max'
+    'SystemDrive' => 'C:'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PT5HOME' => 'C:\\Program Files (x86)\\Cisco Packet Tracer 6.0'
+    'OS' => 'Windows_NT'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'DOCKER_HOST' => 'tcp://192.168.99.102:2376'
+    'NO_PROXY' => '192.168.99.101,192.168.99.102'
+    'FSHARPINSTALLDIR' => 'C:\\Program Files (x86)\\Microsoft SDKs\\F#\\10.1\\Framework\\v4.0\\'
+    'TMP' => 'C:\\Temp'
+    'LOCALAPPDATA' => 'C:\\Users\\max\\AppData\\Local'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'ProgramData' => 'C:\\ProgramData'
+    'USERPROFILE' => 'C:\\Users\\max'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'USERDOMAIN' => 'HP'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PROCESSOR_LEVEL' => '6'
+    'TEMP' => 'C:\\Temp'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\Users\\max\\Desktop'
+    'DOCKER_TLS_VERIFY' => '1'
+    'ProgramW6432' => 'C:\\Program Files'
+    'APPDATA' => 'C:\\Users\\max\\AppData\\Roaming'
+    'LOGONSERVER' => '\\\\HP'
+    'CLASSPATH' => '.;'
+    'VS140COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DOCKER_CERT_PATH' => 'C:\\Users\\max\\.docker\\machine\\machines\\default'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'JAVA_HOME' => 'C:\\Program Files (x86)\\Java\\jdk1.8.0_131'
+    'windows_tracing_flags' => '3'
+    'SystemRoot' => 'C:\\Windows'
+    'COMPOSE_CONVERT_WINDOWS_PATHS' => 'true'
+    'COMPUTERNAME' => 'HP'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'HOMEPATH' => '\\Users\\max'
+    'DOCKER_TOOLBOX_INSTALL_PATH' => 'C:\\Program Files\\Docker Toolbox'
+    'windir' => 'C:\\Windows'
+    'PT6HOME' => 'C:\\Program Files (x86)\\Cisco Packet Tracer 6.0'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'Path' => 'C:\\Windows\\System32;C:\\Windows;C:\\Program Files (x86)\\Java\\jdk1.8.0_131\\bin;C:\\Users\\��花\\Desktop\\ffmpeg\\ffmpeg-20190420-3a07aec-win64-static\\bin;C:\\Users\\max\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\php\\php-7.3.17;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;D:\\Scripts\\;D:\\;C:\\Users\\��花\\Desktop\\ffmpeg\\ffmpeg-20190420-3a07aec-win64-static\\bin;;C:\\Program Files\\Docker Toolbox;C:\\Users\\max\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\Oracle\\VirtualBox\\'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'YII_PATH' => 'C:\\Users\\max\\Desktop\\phphello\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\max\\AppData\\Roaming\\JetBrains\\PhpStorm2020.1\\terminal\\history\\history-'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+    'SCRIPT_NAME' => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+    'PATH_TRANSLATED' => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1589817976.3095
+    'REQUEST_TIME' => 1589817976
+    'argv' => [
+        0 => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations/'
+    ]
+    'argc' => 3
+]
+2020-05-18 16:12:31 [-][-][-][error][yii\db\Exception] PDOException: could not find driver in C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php:705
+Stack trace:
+#0 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(705): PDO->__construct('mysql:host=db;d...', 'root', '123456', NULL)
+#1 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1022): yii\db\Connection->open()
+#3 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(255): yii\db\Connection->getSlavePdo()
+#5 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(1154): yii\db\Command->prepare(true)
+#6 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#8 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#15 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#18 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#19 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#20 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#21 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 C:\Users\max\Desktop\phphello\yii(20): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: could not find driver in C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php:637
+Stack trace:
+#0 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1022): yii\db\Connection->open()
+#1 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(255): yii\db\Connection->getSlavePdo()
+#3 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(1154): yii\db\Command->prepare(true)
+#4 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#6 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#11 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#13 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#16 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#17 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#18 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#19 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#20 C:\Users\max\Desktop\phphello\yii(20): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2020-05-18 16:12:31 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'ProgramFiles' => 'C:\\Program Files'
+    'DOCKER_MACHINE_NAME' => 'default'
+    'USERNAME' => 'max'
+    'SystemDrive' => 'C:'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PT5HOME' => 'C:\\Program Files (x86)\\Cisco Packet Tracer 6.0'
+    'OS' => 'Windows_NT'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'DOCKER_HOST' => 'tcp://192.168.99.102:2376'
+    'NO_PROXY' => '192.168.99.101,192.168.99.102'
+    'FSHARPINSTALLDIR' => 'C:\\Program Files (x86)\\Microsoft SDKs\\F#\\10.1\\Framework\\v4.0\\'
+    'TMP' => 'C:\\Temp'
+    'LOCALAPPDATA' => 'C:\\Users\\max\\AppData\\Local'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'ProgramData' => 'C:\\ProgramData'
+    'USERPROFILE' => 'C:\\Users\\max'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'USERDOMAIN' => 'HP'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PROCESSOR_LEVEL' => '6'
+    'TEMP' => 'C:\\Temp'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\Users\\max\\Desktop'
+    'DOCKER_TLS_VERIFY' => '1'
+    'ProgramW6432' => 'C:\\Program Files'
+    'APPDATA' => 'C:\\Users\\max\\AppData\\Roaming'
+    'LOGONSERVER' => '\\\\HP'
+    'CLASSPATH' => '.;'
+    'VS140COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DOCKER_CERT_PATH' => 'C:\\Users\\max\\.docker\\machine\\machines\\default'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'JAVA_HOME' => 'C:\\Program Files (x86)\\Java\\jdk1.8.0_131'
+    'windows_tracing_flags' => '3'
+    'SystemRoot' => 'C:\\Windows'
+    'COMPOSE_CONVERT_WINDOWS_PATHS' => 'true'
+    'COMPUTERNAME' => 'HP'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'HOMEPATH' => '\\Users\\max'
+    'DOCKER_TOOLBOX_INSTALL_PATH' => 'C:\\Program Files\\Docker Toolbox'
+    'windir' => 'C:\\Windows'
+    'PT6HOME' => 'C:\\Program Files (x86)\\Cisco Packet Tracer 6.0'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'Path' => 'C:\\Windows\\System32;C:\\Windows;C:\\Program Files (x86)\\Java\\jdk1.8.0_131\\bin;C:\\Users\\��花\\Desktop\\ffmpeg\\ffmpeg-20190420-3a07aec-win64-static\\bin;C:\\Users\\max\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\php\\php-7.3.17;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;D:\\Scripts\\;D:\\;C:\\Users\\��花\\Desktop\\ffmpeg\\ffmpeg-20190420-3a07aec-win64-static\\bin;;C:\\Program Files\\Docker Toolbox;C:\\Users\\max\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\Oracle\\VirtualBox\\'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FP_NO_HOST_CHECK' => 'NO'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\max\\AppData\\Roaming\\JetBrains\\PhpStorm2020.1\\terminal\\history\\history-'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1589818350.9486
+    'REQUEST_TIME' => 1589818350
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations/'
+    ]
+    'argc' => 3
+]
+2020-05-18 16:13:49 [-][-][-][error][yii\db\Exception] PDOException: could not find driver in C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php:705
+Stack trace:
+#0 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(705): PDO->__construct('mysql:host=db;d...', 'root', '123456', NULL)
+#1 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1022): yii\db\Connection->open()
+#3 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(255): yii\db\Connection->getSlavePdo()
+#5 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(1154): yii\db\Command->prepare(true)
+#6 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#8 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#15 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#18 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#19 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#20 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#21 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 C:\Users\max\Desktop\phphello\yii(20): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: could not find driver in C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php:637
+Stack trace:
+#0 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1022): yii\db\Connection->open()
+#1 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(255): yii\db\Connection->getSlavePdo()
+#3 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(1154): yii\db\Command->prepare(true)
+#4 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#6 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#11 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#13 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#16 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#17 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#18 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#19 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#20 C:\Users\max\Desktop\phphello\yii(20): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2020-05-18 16:13:49 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PROMPT' => '$P$G'
+    'ProgramFiles' => 'C:\\Program Files'
+    'DOCKER_MACHINE_NAME' => 'default'
+    'USERNAME' => 'max'
+    'SystemDrive' => 'C:'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PT5HOME' => 'C:\\Program Files (x86)\\Cisco Packet Tracer 6.0'
+    'OS' => 'Windows_NT'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'DOCKER_HOST' => 'tcp://192.168.99.102:2376'
+    'NO_PROXY' => '192.168.99.101,192.168.99.102'
+    'FSHARPINSTALLDIR' => 'C:\\Program Files (x86)\\Microsoft SDKs\\F#\\10.1\\Framework\\v4.0\\'
+    'TMP' => 'C:\\Temp'
+    'LOCALAPPDATA' => 'C:\\Users\\max\\AppData\\Local'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'ProgramData' => 'C:\\ProgramData'
+    'USERPROFILE' => 'C:\\Users\\max'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'USERDOMAIN' => 'HP'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PROCESSOR_LEVEL' => '6'
+    'TEMP' => 'C:\\Temp'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\Users\\max\\Desktop'
+    'DOCKER_TLS_VERIFY' => '1'
+    'ProgramW6432' => 'C:\\Program Files'
+    'APPDATA' => 'C:\\Users\\max\\AppData\\Roaming'
+    'LOGONSERVER' => '\\\\HP'
+    'CLASSPATH' => '.;'
+    'VS140COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DOCKER_CERT_PATH' => 'C:\\Users\\max\\.docker\\machine\\machines\\default'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'JAVA_HOME' => 'C:\\Program Files (x86)\\Java\\jdk1.8.0_131'
+    'windows_tracing_flags' => '3'
+    'SystemRoot' => 'C:\\Windows'
+    'COMPOSE_CONVERT_WINDOWS_PATHS' => 'true'
+    'COMPUTERNAME' => 'HP'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'HOMEPATH' => '\\Users\\max'
+    'DOCKER_TOOLBOX_INSTALL_PATH' => 'C:\\Program Files\\Docker Toolbox'
+    'windir' => 'C:\\Windows'
+    'PT6HOME' => 'C:\\Program Files (x86)\\Cisco Packet Tracer 6.0'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'Path' => 'C:\\Windows\\System32;C:\\Windows;C:\\Program Files (x86)\\Java\\jdk1.8.0_131\\bin;C:\\Users\\��花\\Desktop\\ffmpeg\\ffmpeg-20190420-3a07aec-win64-static\\bin;C:\\Users\\max\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\php\\php-7.3.17;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;D:\\Scripts\\;D:\\;C:\\Users\\��花\\Desktop\\ffmpeg\\ffmpeg-20190420-3a07aec-win64-static\\bin;;C:\\Program Files\\Docker Toolbox;C:\\Users\\max\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\Oracle\\VirtualBox\\'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FP_NO_HOST_CHECK' => 'NO'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\max\\AppData\\Roaming\\JetBrains\\PhpStorm2020.1\\terminal\\history\\history-'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1589818429.9096
+    'REQUEST_TIME' => 1589818429
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations/'
+    ]
+    'argc' => 3
+]
+2020-05-18 17:02:58 [192.168.99.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.99.1
+    in /var/www/views/layouts/main.php:79
+    in /var/www/controllers/SiteController.php:64
+2020-05-18 17:02:58 [192.168.99.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.99.1
+2020-05-18 17:02:58 [192.168.99.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '42e4e9165bd50e405e3d45da35a7726c'
+    '_csrf' => 'd1b9a5d0f8cb9493c996a283184f56776f5e6a763792d5e4ae3e4c5210c75b3ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TOe27_UIMybZrEpnSgI-8sin56kboS4Q\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'cef8e8764f43'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=42e4e9165bd50e405e3d45da35a7726c; _csrf=d1b9a5d0f8cb9493c996a283184f56776f5e6a763792d5e4ae3e4c5210c75b3ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TOe27_UIMybZrEpnSgI-8sin56kboS4Q%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.4'
+    'REMOTE_PORT' => '49291'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589821377.8701
+    'REQUEST_TIME' => 1589821377
+    'argv' => []
+    'argc' => 0
+]
+2020-05-18 17:11:42 [-][-][-][error][yii\db\Exception] PDOException: could not find driver in C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php:705
+Stack trace:
+#0 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(705): PDO->__construct('mysql:host=db;d...', 'root', '123456', NULL)
+#1 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(626): yii\db\Connection->createPdoInstance()
+#2 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1022): yii\db\Connection->open()
+#3 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1009): yii\db\Connection->getMasterPdo()
+#4 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(255): yii\db\Connection->getSlavePdo()
+#5 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(1154): yii\db\Command->prepare(true)
+#6 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#8 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#10 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#11 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#12 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#13 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#15 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#18 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#19 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#20 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#21 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 C:\Users\max\Desktop\phphello\yii(20): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: could not find driver in C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php:637
+Stack trace:
+#0 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1022): yii\db\Connection->open()
+#1 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Connection.php(1009): yii\db\Connection->getMasterPdo()
+#2 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(255): yii\db\Connection->getSlavePdo()
+#3 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(1154): yii\db\Command->prepare(true)
+#4 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Command.php(401): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(319): yii\db\Command->queryAll()
+#6 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(754): yii\db\mysql\Schema->loadTableSchema('migration')
+#8 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\db\Schema.php(193): yii\db\Schema->getTableMetadata('{{%migration}}', 'schema', true)
+#9 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\MigrateController.php(211): yii\db\Schema->getTableSchema('{{%migration}}', true)
+#10 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(875): yii\console\controllers\MigrateController->getMigrationHistory(NULL)
+#11 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(167): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#13 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#15 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Controller.php(164): yii\base\Controller->runAction('', Array)
+#16 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#17 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#18 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#19 C:\Users\max\Desktop\phphello\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#20 C:\Users\max\Desktop\phphello\yii(20): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2020-05-18 17:11:42 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_COMMAND' => 'php.exe'
+    'PROMPT' => '$P$G'
+    'ProgramFiles' => 'C:\\Program Files'
+    'DOCKER_MACHINE_NAME' => 'default'
+    'USERNAME' => 'max'
+    'SystemDrive' => 'C:'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'PT5HOME' => 'C:\\Program Files (x86)\\Cisco Packet Tracer 6.0'
+    'OS' => 'Windows_NT'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'DOCKER_HOST' => 'tcp://192.168.99.102:2376'
+    'NO_PROXY' => '192.168.99.101,192.168.99.102'
+    'FSHARPINSTALLDIR' => 'C:\\Program Files (x86)\\Microsoft SDKs\\F#\\10.1\\Framework\\v4.0\\'
+    'TMP' => 'C:\\Temp'
+    'LOCALAPPDATA' => 'C:\\Users\\max\\AppData\\Local'
+    'MOZ_PLUGIN_PATH' => 'C:\\Program Files (x86)\\Foxit Software\\Foxit Reader\\plugins\\'
+    'ProgramData' => 'C:\\ProgramData'
+    'USERPROFILE' => 'C:\\Users\\max'
+    'PROCESSOR_REVISION' => '3a09'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'USERDOMAIN' => 'HP'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PROCESSOR_LEVEL' => '6'
+    'TEMP' => 'C:\\Temp'
+    'IDEA_INITIAL_DIRECTORY' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.1\\jbr\\bin'
+    'DOCKER_TLS_VERIFY' => '1'
+    'ProgramW6432' => 'C:\\Program Files'
+    'APPDATA' => 'C:\\Users\\max\\AppData\\Roaming'
+    'LOGONSERVER' => '\\\\HP'
+    'CLASSPATH' => '.;'
+    'VS140COMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'DOCKER_CERT_PATH' => 'C:\\Users\\max\\.docker\\machine\\machines\\default'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'JAVA_HOME' => 'C:\\Program Files (x86)\\Java\\jdk1.8.0_131'
+    'windows_tracing_flags' => '3'
+    'SystemRoot' => 'C:\\Windows'
+    'COMPOSE_CONVERT_WINDOWS_PATHS' => 'true'
+    'COMPUTERNAME' => 'HP'
+    'SESSIONNAME' => 'Console'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'HOMEPATH' => '\\Users\\max'
+    'DOCKER_TOOLBOX_INSTALL_PATH' => 'C:\\Program Files\\Docker Toolbox'
+    'windir' => 'C:\\Windows'
+    'PT6HOME' => 'C:\\Program Files (x86)\\Cisco Packet Tracer 6.0'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'VS150COMCOMNTOOLS' => 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Community\\Common7\\Tools\\'
+    'Path' => 'C:\\Windows\\System32;C:\\Windows;C:\\Program Files (x86)\\Java\\jdk1.8.0_131\\bin;C:\\Users\\��花\\Desktop\\ffmpeg\\ffmpeg-20190420-3a07aec-win64-static\\bin;C:\\Users\\max\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\php\\php-7.3.17;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;D:\\Scripts\\;D:\\;C:\\Users\\��花\\Desktop\\ffmpeg\\ffmpeg-20190420-3a07aec-win64-static\\bin;;C:\\Program Files\\Docker Toolbox;C:\\Users\\max\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'VBOX_MSI_INSTALL_PATH' => 'D:\\Oracle\\VirtualBox\\'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'YII_PATH' => 'C:\\Users\\max\\Desktop\\phphello\\'
+    '__INTELLIJ_COMMAND_HISTFILE__' => 'C:\\Users\\max\\AppData\\Roaming\\JetBrains\\PhpStorm2020.1\\terminal\\history\\history-'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'PHP_SELF' => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+    'SCRIPT_NAME' => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+    'SCRIPT_FILENAME' => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+    'PATH_TRANSLATED' => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1589821902.5741
+    'REQUEST_TIME' => 1589821902
+    'argv' => [
+        0 => 'C:\\Users\\max\\Desktop\\phphello\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations/'
+    ]
+    'argc' => 3
+]
+2020-05-18 17:17:59 [192.168.99.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.99.1
+    in /var/www/views/layouts/main.php:79
+    in /var/www/controllers/SiteController.php:64
+2020-05-18 17:17:59 [192.168.99.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.99.1
+2020-05-18 17:17:59 [192.168.99.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '42e4e9165bd50e405e3d45da35a7726c'
+    '_csrf' => 'd1b9a5d0f8cb9493c996a283184f56776f5e6a763792d5e4ae3e4c5210c75b3ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"TOe27_UIMybZrEpnSgI-8sin56kboS4Q\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'cef8e8764f43'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=42e4e9165bd50e405e3d45da35a7726c; _csrf=d1b9a5d0f8cb9493c996a283184f56776f5e6a763792d5e4ae3e4c5210c75b3ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22TOe27_UIMybZrEpnSgI-8sin56kboS4Q%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.18.0.4'
+    'REMOTE_PORT' => '50521'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589822279.5909
+    'REQUEST_TIME' => 1589822279
+    'argv' => []
+    'argc' => 0
+]
