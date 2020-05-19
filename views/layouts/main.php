@@ -1,6 +1,7 @@
 <?php
 
 /* @var $this \yii\web\View */
+
 /* @var $content string */
 
 use app\widgets\Alert;
@@ -35,18 +36,15 @@ AppAsset::register($this);
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
     ]);
-    echo Nav::widget([
-        'options' => ['class' => 'navbar-nav navbar-right'],
-        'items' => [
+    $menuItem = [
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
-            ['label' => 'Users', 'url' => ['/users']],
             Yii::$app->user->isGuest ? (
-                ['label' => 'Login', 'url' => ['/site/login']]
+            ['label' => 'Login', 'url' => ['/user/login']]
             ) : (
                 '<li>'
-                . Html::beginForm(['/site/logout'], 'post')
+                . Html::beginForm(['/user/logout'], 'post')
                 . Html::submitButton(
                     'Logout (' . Yii::$app->user->identity->login . ')',
                     ['class' => 'btn btn-link logout']
@@ -54,10 +52,19 @@ AppAsset::register($this);
                 . Html::endForm()
                 . '</li>'
             )
-        ],
+    ];
+
+    if (Yii::$app->user->isGuest){
+        $menuItem[] = ['label' => 'Signup', 'url' => ['/user/signup']];
+    }
+
+    echo Nav::widget([
+             'options' => ['class' => 'navbar-nav navbar-right'],
+             'items' => $menuItem,
     ]);
     NavBar::end();
     ?>
+
 
     <div class="container">
         <?= Breadcrumbs::widget([

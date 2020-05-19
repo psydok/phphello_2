@@ -7009,3 +7009,3008 @@ $_SERVER = [
     ]
     'argc' => 1
 ]
+2020-05-18 22:52:05 [192.168.99.1][1][7c6a049da59e5511aee045bd4d0244f0][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "users". in /var/www/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('users', Array)
+#1 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-05-18 22:52:05 [192.168.99.1][1][7c6a049da59e5511aee045bd4d0244f0][info][application] $_GET = [
+    'r' => 'users'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '7c6a049da59e5511aee045bd4d0244f0'
+    '_csrf' => 'ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"95xt-IztkF4ufvNo32cIrgnff46Sck-R\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => 'PHPSESSID=7c6a049da59e5511aee045bd4d0244f0; _csrf=ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2295xt-IztkF4ufvNo32cIrgnff46Sck-R%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '58747'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=users'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589842325.7105
+    'REQUEST_TIME' => 1589842325
+    'argv' => [
+        0 => 'r=users'
+    ]
+    'argc' => 1
+]
+2020-05-19 21:25:44 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "users". in /var/www/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('users', Array)
+#1 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-05-19 21:25:44 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][info][application] $_GET = [
+    'r' => 'users'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"95xt-IztkF4ufvNo32cIrgnff46Sck-R\";}'
+    'PHPSESSID' => '1a15e6d7a365bec2aed33d0a8ca318fb'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'zyzuguw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2295xt-IztkF4ufvNo32cIrgnff46Sck-R%22%3B%7D; PHPSESSID=1a15e6d7a365bec2aed33d0a8ca318fb'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '58047'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=users'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589923544.8248
+    'REQUEST_TIME' => 1589923544
+    'argv' => [
+        0 => 'r=users'
+    ]
+    'argc' => 1
+]
+2020-05-19 21:25:59 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "users". in /var/www/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('users', Array)
+#1 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-05-19 21:25:59 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][info][application] $_GET = [
+    'r' => 'users'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"95xt-IztkF4ufvNo32cIrgnff46Sck-R\";}'
+    'PHPSESSID' => '1a15e6d7a365bec2aed33d0a8ca318fb'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'zyzuguw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2295xt-IztkF4ufvNo32cIrgnff46Sck-R%22%3B%7D; PHPSESSID=1a15e6d7a365bec2aed33d0a8ca318fb'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '58047'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=users'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589923559.5796
+    'REQUEST_TIME' => 1589923559
+    'argv' => [
+        0 => 'r=users'
+    ]
+    'argc' => 1
+]
+2020-05-19 21:30:12 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][error][Error] Error: Class 'app\controllers\SignupForm' not found in /var/www/controllers/SiteController.php:100
+Stack trace:
+#0 [internal function]: app\controllers\SiteController->actionSignup()
+#1 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#4 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/signup', Array)
+#5 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2020-05-19 21:30:12 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"95xt-IztkF4ufvNo32cIrgnff46Sck-R\";}'
+    'PHPSESSID' => '1a15e6d7a365bec2aed33d0a8ca318fb'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'zyzuguw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2295xt-IztkF4ufvNo32cIrgnff46Sck-R%22%3B%7D; PHPSESSID=1a15e6d7a365bec2aed33d0a8ca318fb'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '58047'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589923812.6122
+    'REQUEST_TIME' => 1589923812
+    'argv' => [
+        0 => 'r=site%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-05-19 21:31:09 [192.168.99.1][-][b4f45fee26b18960e4b6efed361f2c45][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/signupindex.php?r=site/login". in /var/www/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/signupinde...', Array)
+#1 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-05-19 21:31:09 [192.168.99.1][-][b4f45fee26b18960e4b6efed361f2c45][info][application] $_GET = [
+    'r' => 'site/signupindex.php?r=site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '58057'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fsignupindex.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignupindex.php?r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589923869.4217
+    'REQUEST_TIME' => 1589923869
+    'argv' => [
+        0 => 'r=site%2Fsignupindex.php?r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2020-05-19 21:56:35 [192.168.99.1][-][f550d29e59056434538877fea555b0bd][warning][yii\gii\Module::checkAccess] Access to Gii is denied due to IP address restriction. The requested IP is 192.168.99.1
+2020-05-19 21:56:35 [192.168.99.1][-][f550d29e59056434538877fea555b0bd][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to access this page. in /var/www/vendor/yiisoft/yii2-gii/src/Module.php:113
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/base/Controller.php(145): yii\gii\Module->beforeAction(Object(yii\base\InlineAction))
+#1 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#2 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gii', Array)
+#3 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /var/www/web/index.php(12): yii\base\Application->run()
+#5 {main}
+2020-05-19 21:56:35 [192.168.99.1][-][f550d29e59056434538877fea555b0bd][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '60731'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589925395.6517
+    'REQUEST_TIME' => 1589925395
+    'argv' => [
+        0 => 'r=gii'
+    ]
+    'argc' => 1
+]
+2020-05-19 21:56:35 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][warning][yii\gii\Module::checkAccess] Access to Gii is denied due to IP address restriction. The requested IP is 192.168.99.1
+2020-05-19 21:56:35 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: You are not allowed to access this page. in /var/www/vendor/yiisoft/yii2-gii/src/Module.php:113
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/base/Controller.php(145): yii\gii\Module->beforeAction(Object(yii\base\InlineAction))
+#1 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#2 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gii', Array)
+#3 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /var/www/web/index.php(12): yii\base\Application->run()
+#5 {main}
+2020-05-19 21:56:35 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"95xt-IztkF4ufvNo32cIrgnff46Sck-R\";}'
+    'PHPSESSID' => '1a15e6d7a365bec2aed33d0a8ca318fb'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'zyzuguw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2295xt-IztkF4ufvNo32cIrgnff46Sck-R%22%3B%7D; PHPSESSID=1a15e6d7a365bec2aed33d0a8ca318fb'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '60732'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589925395.8942
+    'REQUEST_TIME' => 1589925395
+    'argv' => [
+        0 => 'r=gii'
+    ]
+    'argc' => 1
+]
+2020-05-19 22:04:00 [192.168.99.1][-][95aeb2ef1ecaa2e4a84e800652a1f21f][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "g". in /var/www/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('g', Array)
+#1 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-05-19 22:04:00 [192.168.99.1][-][95aeb2ef1ecaa2e4a84e800652a1f21f][info][application] $_GET = [
+    'r' => 'g'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '61539'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=g'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=g'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589925840.064
+    'REQUEST_TIME' => 1589925840
+    'argv' => [
+        0 => 'r=g'
+    ]
+    'argc' => 1
+]
+2020-05-19 22:04:00 [192.168.99.1][-][a804b931e1b64681880ed0770094061e][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "gi". in /var/www/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gi', Array)
+#1 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-05-19 22:04:00 [192.168.99.1][-][a804b931e1b64681880ed0770094061e][info][application] $_GET = [
+    'r' => 'gi'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '61540'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=gi'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gi'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589925840.2464
+    'REQUEST_TIME' => 1589925840
+    'argv' => [
+        0 => 'r=gi'
+    ]
+    'argc' => 1
+]
+2020-05-19 22:08:28 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/signup in /var/www/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#1 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/signup', Array)
+#2 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-05-19 22:08:28 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"95xt-IztkF4ufvNo32cIrgnff46Sck-R\";}'
+    'PHPSESSID' => '1a15e6d7a365bec2aed33d0a8ca318fb'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'zyzuguw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2295xt-IztkF4ufvNo32cIrgnff46Sck-R%22%3B%7D; PHPSESSID=1a15e6d7a365bec2aed33d0a8ca318fb'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '61543'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589926108.0924
+    'REQUEST_TIME' => 1589926108
+    'argv' => [
+        0 => 'r=site%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-05-19 22:09:34 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/signup in /var/www/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#1 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/signup', Array)
+#2 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-05-19 22:09:34 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"95xt-IztkF4ufvNo32cIrgnff46Sck-R\";}'
+    'PHPSESSID' => '1a15e6d7a365bec2aed33d0a8ca318fb'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'zyzuguw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2295xt-IztkF4ufvNo32cIrgnff46Sck-R%22%3B%7D; PHPSESSID=1a15e6d7a365bec2aed33d0a8ca318fb'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '61543'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589926174.3415
+    'REQUEST_TIME' => 1589926174
+    'argv' => [
+        0 => 'r=site%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-05-19 22:13:26 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/login in /var/www/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#1 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/login', Array)
+#2 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /var/www/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2020-05-19 22:13:26 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"95xt-IztkF4ufvNo32cIrgnff46Sck-R\";}'
+    'PHPSESSID' => '1a15e6d7a365bec2aed33d0a8ca318fb'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'zyzuguw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2295xt-IztkF4ufvNo32cIrgnff46Sck-R%22%3B%7D; PHPSESSID=1a15e6d7a365bec2aed33d0a8ca318fb'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php?r=user%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '61543'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589926405.987
+    'REQUEST_TIME' => 1589926405
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2020-05-19 22:13:28 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][error][Error] Error: Class 'app\controllers\Yii' not found in /var/www/controllers/UserController.php:17
+Stack trace:
+#0 [internal function]: app\controllers\UserController->actionLogin()
+#1 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#4 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/login', Array)
+#5 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2020-05-19 22:13:28 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][info][application] $_GET = [
+    'r' => 'user/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"95xt-IztkF4ufvNo32cIrgnff46Sck-R\";}'
+    'PHPSESSID' => '1a15e6d7a365bec2aed33d0a8ca318fb'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'zyzuguw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2295xt-IztkF4ufvNo32cIrgnff46Sck-R%22%3B%7D; PHPSESSID=1a15e6d7a365bec2aed33d0a8ca318fb'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php?r=site%2Fcontact'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '62201'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589926408.7582
+    'REQUEST_TIME' => 1589926408
+    'argv' => [
+        0 => 'r=user%2Flogin'
+    ]
+    'argc' => 1
+]
+2020-05-19 22:30:53 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\SignupForm::username in /var/www/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/helpers/BaseHtml.php(2233): yii\base\Component->__get('username')
+#1 /var/www/vendor/yiisoft/yii2/helpers/BaseHtml.php(1353): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\SignupForm), 'username')
+#2 /var/www/vendor/yiisoft/yii2/helpers/BaseHtml.php(1407): yii\helpers\BaseHtml::activeInput('text', Object(app\models\SignupForm), 'username', Array)
+#3 /var/www/vendor/yiisoft/yii2/widgets/ActiveField.php(407): yii\helpers\BaseHtml::activeTextInput(Object(app\models\SignupForm), 'username', Array)
+#4 /var/www/views/user/signup.php(22): yii\widgets\ActiveField->textInput(Array)
+#5 /var/www/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/views/...')
+#6 /var/www/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/views/...', Array)
+#7 /var/www/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/views/...', Array, Object(app\controllers\UserController))
+#8 /var/www/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('signup', Array, Object(app\controllers\UserController))
+#9 /var/www/controllers/UserController.php(57): yii\base\Controller->render('signup', Array)
+#10 [internal function]: app\controllers\UserController->actionSignup()
+#11 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#14 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#15 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/web/index.php(12): yii\base\Application->run()
+#17 {main}
+2020-05-19 22:30:53 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][info][application] $_GET = [
+    'r' => 'user/signup'
+]
+
+$_POST = [
+    '_csrf' => 'AuBKZuZUxtxLcElHmQgIZt3cQ1bSmuyDtIp1qq4-ASo71TISyx28qCA2fTL_fkYJ7u4gH6D9guXSvkP5zVUseA=='
+    'SignupForm' => [
+        'username' => ''
+        'password' => ''
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"95xt-IztkF4ufvNo32cIrgnff46Sck-R\";}'
+    'PHPSESSID' => '1a15e6d7a365bec2aed33d0a8ca318fb'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'zyzuguw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2295xt-IztkF4ufvNo32cIrgnff46Sck-R%22%3B%7D; PHPSESSID=1a15e6d7a365bec2aed33d0a8ca318fb'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php?r=user%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.99.102:8500'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '165'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '63527'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '165'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589927453.766
+    'REQUEST_TIME' => 1589927453
+    'argv' => [
+        0 => 'r=user%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-05-19 22:40:42 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\LoginForm::username in /var/www/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/helpers/BaseHtml.php(2233): yii\base\Component->__get('username')
+#1 /var/www/vendor/yiisoft/yii2/helpers/BaseHtml.php(1353): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\LoginForm), 'username')
+#2 /var/www/vendor/yiisoft/yii2/helpers/BaseHtml.php(1407): yii\helpers\BaseHtml::activeInput('text', Object(app\models\LoginForm), 'username', Array)
+#3 /var/www/vendor/yiisoft/yii2/widgets/ActiveField.php(407): yii\helpers\BaseHtml::activeTextInput(Object(app\models\LoginForm), 'username', Array)
+#4 /var/www/views/user/login.php(27): yii\widgets\ActiveField->textInput(Array)
+#5 /var/www/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/views/...')
+#6 /var/www/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/views/...', Array)
+#7 /var/www/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/views/...', Array, Object(app\controllers\UserController))
+#8 /var/www/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('login', Array, Object(app\controllers\UserController))
+#9 /var/www/controllers/UserController.php(30): yii\base\Controller->render('login', Array)
+#10 [internal function]: app\controllers\UserController->actionLogin()
+#11 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#14 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/login', Array)
+#15 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/web/index.php(12): yii\base\Application->run()
+#17 {main}
+2020-05-19 22:40:42 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][info][application] $_GET = [
+    'r' => 'user/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"95xt-IztkF4ufvNo32cIrgnff46Sck-R\";}'
+    'PHPSESSID' => '1a15e6d7a365bec2aed33d0a8ca318fb'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'zyzuguw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2295xt-IztkF4ufvNo32cIrgnff46Sck-R%22%3B%7D; PHPSESSID=1a15e6d7a365bec2aed33d0a8ca318fb'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '64141'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589928042.3173
+    'REQUEST_TIME' => 1589928042
+    'argv' => [
+        0 => 'r=user%2Flogin'
+    ]
+    'argc' => 1
+]
+2020-05-19 22:41:36 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\LoginForm::username in /var/www/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/helpers/BaseHtml.php(2233): yii\base\Component->__get('username')
+#1 /var/www/vendor/yiisoft/yii2/helpers/BaseHtml.php(1353): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\LoginForm), 'username')
+#2 /var/www/vendor/yiisoft/yii2/helpers/BaseHtml.php(1407): yii\helpers\BaseHtml::activeInput('text', Object(app\models\LoginForm), 'username', Array)
+#3 /var/www/vendor/yiisoft/yii2/widgets/ActiveField.php(407): yii\helpers\BaseHtml::activeTextInput(Object(app\models\LoginForm), 'username', Array)
+#4 /var/www/views/user/login.php(27): yii\widgets\ActiveField->textInput(Array)
+#5 /var/www/vendor/yiisoft/yii2/base/View.php(348): require('/var/www/views/...')
+#6 /var/www/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/var/www/views/...', Array)
+#7 /var/www/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/var/www/views/...', Array, Object(app\controllers\UserController))
+#8 /var/www/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('login', Array, Object(app\controllers\UserController))
+#9 /var/www/controllers/UserController.php(30): yii\base\Controller->render('login', Array)
+#10 [internal function]: app\controllers\UserController->actionLogin()
+#11 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#12 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('login', Array)
+#14 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/login', Array)
+#15 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#16 /var/www/web/index.php(12): yii\base\Application->run()
+#17 {main}
+2020-05-19 22:41:36 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][info][application] $_GET = [
+    'r' => 'user/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"95xt-IztkF4ufvNo32cIrgnff46Sck-R\";}'
+    'PHPSESSID' => '1a15e6d7a365bec2aed33d0a8ca318fb'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'zyzuguw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2295xt-IztkF4ufvNo32cIrgnff46Sck-R%22%3B%7D; PHPSESSID=1a15e6d7a365bec2aed33d0a8ca318fb'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '64141'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Flogin'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589928096.8032
+    'REQUEST_TIME' => 1589928096
+    'argv' => [
+        0 => 'r=user%2Flogin'
+    ]
+    'argc' => 1
+]
+2020-05-19 22:42:18 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][error][Error] Error: Call to undefined method app\models\SignupForm::getDb() in /var/www/vendor/yiisoft/yii2/validators/UniqueValidator.php:139
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/validators/Validator.php(257): yii\validators\UniqueValidator->validateAttribute(Object(app\models\SignupForm), 'login')
+#1 /var/www/vendor/yiisoft/yii2/base/Model.php(367): yii\validators\Validator->validateAttributes(Object(app\models\SignupForm), Array)
+#2 /var/www/models/SignupForm.php(30): yii\base\Model->validate()
+#3 /var/www/controllers/UserController.php(55): app\models\SignupForm->save()
+#4 [internal function]: app\controllers\UserController->actionSignup()
+#5 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#6 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#8 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#9 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/web/index.php(12): yii\base\Application->run()
+#11 {main}
+2020-05-19 22:42:18 [192.168.99.1][-][1a15e6d7a365bec2aed33d0a8ca318fb][info][application] $_GET = [
+    'r' => 'user/signup'
+]
+
+$_POST = [
+    '_csrf' => 'd3zErMjXwSoj3XROA1utS0qbOBQ7piQNIZuKpq0RocBOSbzY5Z67XkibQDtlLeMkealbXUnBSmtHr7z1znqMkg=='
+    'SignupForm' => [
+        'login' => 'test'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"95xt-IztkF4ufvNo32cIrgnff46Sck-R\";}'
+    'PHPSESSID' => '1a15e6d7a365bec2aed33d0a8ca318fb'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'zyzuguw'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ff06c6cf9f55cacd8af3c16e50bad1a2e3e6ec771a44e90ceeb9eabd54e0569fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%2295xt-IztkF4ufvNo32cIrgnff46Sck-R%22%3B%7D; PHPSESSID=1a15e6d7a365bec2aed33d0a8ca318fb'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php?r=user%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.99.102:8500'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '172'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '64141'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '172'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589928138.1784
+    'REQUEST_TIME' => 1589928138
+    'argv' => [
+        0 => 'r=user%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-05-19 23:08:31 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][error][Error] Error: Call to undefined method Yii::app() in /var/www/models/SignupForm.php:33
+Stack trace:
+#0 /var/www/controllers/UserController.php(55): app\models\SignupForm->save()
+#1 [internal function]: app\controllers\UserController->actionSignup()
+#2 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#5 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#6 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /var/www/web/index.php(12): yii\base\Application->run()
+#8 {main}
+2020-05-19 23:08:30 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][info][application] $_GET = [
+    'r' => 'user/signup'
+]
+
+$_POST = [
+    '_csrf' => '7D87f9JmVKMmQv0s6Tr_MM3qqzJQNbtkbo5RNGwOioCqRUk46zI5mm5vllnQbLdD-qjzAD967DIiuyEZDyPt8w=='
+    'SignupForm' => [
+        'login' => 'mytest1'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs\";}'
+    'PHPSESSID' => '75de442f0c358cc9dd418babe00db7d0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs%22%3B%7D; PHPSESSID=75de442f0c358cc9dd418babe00db7d0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php?r=user%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.99.102:8500'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '175'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '49336'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '175'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589929710.4551
+    'REQUEST_TIME' => 1589929710
+    'argv' => [
+        0 => 'r=user%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-05-19 23:15:07 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][error][yii\base\UnknownMethodException] yii\base\UnknownMethodException: Calling unknown method: yii\base\Security::generateRandomInt() in /var/www/vendor/yiisoft/yii2/base/Component.php:300
+Stack trace:
+#0 /var/www/models/SignupForm.php(30): yii\base\Component->__call('generateRandomI...', Array)
+#1 /var/www/controllers/UserController.php(55): app\models\SignupForm->save()
+#2 [internal function]: app\controllers\UserController->actionSignup()
+#3 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#6 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#7 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2020-05-19 23:15:07 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][info][application] $_GET = [
+    'r' => 'user/signup'
+]
+
+$_POST = [
+    '_csrf' => 'eaoOijvHTfrenaanR8QGY2RiQEiy8Pyon8BvdWWyzXk_0HzNApMgw5awzdJ-kk4QUyAYet2_q_7T9R9YBp-qCg=='
+    'SignupForm' => [
+        'login' => 'mytest1'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs\";}'
+    'PHPSESSID' => '75de442f0c358cc9dd418babe00db7d0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs%22%3B%7D; PHPSESSID=75de442f0c358cc9dd418babe00db7d0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php?r=user%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.99.102:8500'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '175'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '49336'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '175'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589930107.8349
+    'REQUEST_TIME' => 1589930107
+    'argv' => [
+        0 => 'r=user%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-05-19 23:24:19 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][error][Error] Error: Unsupported operand types in /var/www/models/User.php:89
+Stack trace:
+#0 /var/www/models/SignupForm.php(30): app\models\User::getNextId()
+#1 /var/www/controllers/UserController.php(55): app\models\SignupForm->save()
+#2 [internal function]: app\controllers\UserController->actionSignup()
+#3 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#6 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#7 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2020-05-19 23:24:19 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][info][application] $_GET = [
+    'r' => 'user/signup'
+]
+
+$_POST = [
+    '_csrf' => 'U0xaFprArBUsey5_6OWlTxlYJK9XVFdfDI42f8_JF58VNihRo5TBLGRWRQrRs-08Lhp8nTgbAAlAu0ZSrORw7A=='
+    'SignupForm' => [
+        'login' => 'mytest1'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs\";}'
+    'PHPSESSID' => '75de442f0c358cc9dd418babe00db7d0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs%22%3B%7D; PHPSESSID=75de442f0c358cc9dd418babe00db7d0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php?r=user%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.99.102:8500'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '175'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '50972'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '175'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589930659.7558
+    'REQUEST_TIME' => 1589930659
+    'argv' => [
+        0 => 'r=user%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-05-19 23:28:30 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][error][yii\base\ErrorException:8] yii\base\ErrorException: Object of class yii\db\ActiveQuery could not be converted to int in /var/www/models/User.php:89
+Stack trace:
+#0 /var/www/models/User.php(89): yii\base\ErrorHandler->handleError(8, 'Object of class...', '/var/www/models...', 89, Array)
+#1 /var/www/models/SignupForm.php(30): app\models\User::getNextId()
+#2 /var/www/controllers/UserController.php(55): app\models\SignupForm->save()
+#3 [internal function]: app\controllers\UserController->actionSignup()
+#4 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#7 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#8 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2020-05-19 23:28:30 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][info][application] $_GET = [
+    'r' => 'user/signup'
+]
+
+$_POST = [
+    '_csrf' => 'qCDd_BzdIAuiw_Pdn2sEX-GArpadjE-RV81KhqjdabjuWq-7JYlNMurumKimPUws1sL2pPLDGMcb-Dqry_AOyw=='
+    'SignupForm' => [
+        'login' => 'mytest1'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs\";}'
+    'PHPSESSID' => '75de442f0c358cc9dd418babe00db7d0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs%22%3B%7D; PHPSESSID=75de442f0c358cc9dd418babe00db7d0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php?r=user%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.99.102:8500'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '175'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '50972'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '175'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589930910.4353
+    'REQUEST_TIME' => 1589930910
+    'argv' => [
+        0 => 'r=user%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-05-19 23:29:24 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ';) `c`' at line 1 in /var/www/vendor/yiisoft/yii2/db/Command.php:1293
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Command.php(1293): PDOStatement->execute()
+#1 /var/www/vendor/yiisoft/yii2/db/Command.php(1159): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 /var/www/vendor/yiisoft/yii2/db/Command.php(427): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(361): yii\db\Command->queryScalar()
+#4 /var/www/vendor/yiisoft/yii2/db/Query.php(366): yii\db\ActiveQuery->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 /var/www/models/User.php(89): yii\db\Query->count()
+#6 /var/www/models/SignupForm.php(30): app\models\User::getNextId()
+#7 /var/www/controllers/UserController.php(55): app\models\SignupForm->save()
+#8 [internal function]: app\controllers\UserController->actionSignup()
+#9 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#12 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /var/www/web/index.php(12): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ';) `c`' at line 1
+The SQL being executed was: SELECT COUNT(*) FROM (SELECT COUNT(id) FROM users;) `c` in /var/www/vendor/yiisoft/yii2/db/Schema.php:674
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 /var/www/vendor/yiisoft/yii2/db/Command.php(1159): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 /var/www/vendor/yiisoft/yii2/db/Command.php(427): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(361): yii\db\Command->queryScalar()
+#4 /var/www/vendor/yiisoft/yii2/db/Query.php(366): yii\db\ActiveQuery->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 /var/www/models/User.php(89): yii\db\Query->count()
+#6 /var/www/models/SignupForm.php(30): app\models\User::getNextId()
+#7 /var/www/controllers/UserController.php(55): app\models\SignupForm->save()
+#8 [internal function]: app\controllers\UserController->actionSignup()
+#9 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#12 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /var/www/web/index.php(12): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ';) `c`' at line 1
+)
+
+2020-05-19 23:29:24 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][info][application] $_GET = [
+    'r' => 'user/signup'
+]
+
+$_POST = [
+    '_csrf' => '3KZ7II8AJM1-gU-mQiIxKBU0mkeO9ksUbMNmjX6fedua3AlntlRJ9DasJNN7dHlbInbCdeG5HEIg9hagHbIeqA=='
+    'SignupForm' => [
+        'login' => 'mytest1'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs\";}'
+    'PHPSESSID' => '75de442f0c358cc9dd418babe00db7d0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs%22%3B%7D; PHPSESSID=75de442f0c358cc9dd418babe00db7d0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php?r=user%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.99.102:8500'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '175'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '50972'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '175'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589930964.5019
+    'REQUEST_TIME' => 1589930964
+    'argv' => [
+        0 => 'r=user%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-05-19 23:29:57 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ';) `c`' at line 1 in /var/www/vendor/yiisoft/yii2/db/Command.php:1293
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Command.php(1293): PDOStatement->execute()
+#1 /var/www/vendor/yiisoft/yii2/db/Command.php(1159): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 /var/www/vendor/yiisoft/yii2/db/Command.php(427): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(361): yii\db\Command->queryScalar()
+#4 /var/www/vendor/yiisoft/yii2/db/Query.php(366): yii\db\ActiveQuery->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 /var/www/models/User.php(89): yii\db\Query->count()
+#6 /var/www/models/SignupForm.php(30): app\models\User::getNextId()
+#7 /var/www/controllers/UserController.php(55): app\models\SignupForm->save()
+#8 [internal function]: app\controllers\UserController->actionSignup()
+#9 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#12 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /var/www/web/index.php(12): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ';) `c`' at line 1
+The SQL being executed was: SELECT COUNT(*) FROM (SELECT COUNT(`id`) FROM `users`;) `c` in /var/www/vendor/yiisoft/yii2/db/Schema.php:674
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 /var/www/vendor/yiisoft/yii2/db/Command.php(1159): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 /var/www/vendor/yiisoft/yii2/db/Command.php(427): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(361): yii\db\Command->queryScalar()
+#4 /var/www/vendor/yiisoft/yii2/db/Query.php(366): yii\db\ActiveQuery->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 /var/www/models/User.php(89): yii\db\Query->count()
+#6 /var/www/models/SignupForm.php(30): app\models\User::getNextId()
+#7 /var/www/controllers/UserController.php(55): app\models\SignupForm->save()
+#8 [internal function]: app\controllers\UserController->actionSignup()
+#9 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#12 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /var/www/web/index.php(12): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ';) `c`' at line 1
+)
+
+2020-05-19 23:29:56 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][info][application] $_GET = [
+    'r' => 'user/signup'
+]
+
+$_POST = [
+    '_csrf' => 'moCC5W1PBd1S9H-1k-VXvfAiUQi8J-9RAy2uAKPwbbHc-vCiVBto5BrZFMCqsx_Ox2AJOtNouAdPGN4twN0Kwg=='
+    'SignupForm' => [
+        'login' => 'mytest1'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs\";}'
+    'PHPSESSID' => '75de442f0c358cc9dd418babe00db7d0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs%22%3B%7D; PHPSESSID=75de442f0c358cc9dd418babe00db7d0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php?r=user%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.99.102:8500'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '175'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '50972'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '175'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589930996.9399
+    'REQUEST_TIME' => 1589930996
+    'argv' => [
+        0 => 'r=user%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-05-19 23:30:25 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][error][yii\base\ErrorException:8] yii\base\ErrorException: Object of class yii\db\ActiveQuery could not be converted to int in /var/www/models/User.php:89
+Stack trace:
+#0 /var/www/models/User.php(89): yii\base\ErrorHandler->handleError(8, 'Object of class...', '/var/www/models...', 89, Array)
+#1 /var/www/models/SignupForm.php(30): app\models\User::getNextId()
+#2 /var/www/controllers/UserController.php(55): app\models\SignupForm->save()
+#3 [internal function]: app\controllers\UserController->actionSignup()
+#4 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#7 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#8 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2020-05-19 23:30:25 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][info][application] $_GET = [
+    'r' => 'user/signup'
+]
+
+$_POST = [
+    '_csrf' => 'slrrDWjSYI53uqir-UVb5I1DykF_hW4oXKZ-BVTfOAT0IJlKUYYNtz-Xw97AExOXugGScxDKOX4Qkw4oN_Jfdw=='
+    'SignupForm' => [
+        'login' => 'mytest1'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs\";}'
+    'PHPSESSID' => '75de442f0c358cc9dd418babe00db7d0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs%22%3B%7D; PHPSESSID=75de442f0c358cc9dd418babe00db7d0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php?r=user%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.99.102:8500'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '175'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '50972'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '175'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589931025.6081
+    'REQUEST_TIME' => 1589931025
+    'argv' => [
+        0 => 'r=user%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-05-19 23:32:08 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`c`' at line 1 in /var/www/vendor/yiisoft/yii2/db/Command.php:1293
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Command.php(1293): PDOStatement->execute()
+#1 /var/www/vendor/yiisoft/yii2/db/Command.php(1159): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 /var/www/vendor/yiisoft/yii2/db/Command.php(427): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(361): yii\db\Command->queryScalar()
+#4 /var/www/vendor/yiisoft/yii2/db/Query.php(366): yii\db\ActiveQuery->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 /var/www/models/User.php(89): yii\db\Query->count()
+#6 /var/www/models/SignupForm.php(30): app\models\User::getNextId()
+#7 /var/www/controllers/UserController.php(55): app\models\SignupForm->save()
+#8 [internal function]: app\controllers\UserController->actionSignup()
+#9 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#12 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /var/www/web/index.php(12): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`c`' at line 1
+The SQL being executed was: SELECT COUNT(*) FROM (users) `c` in /var/www/vendor/yiisoft/yii2/db/Schema.php:674
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Command.php(1298): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 /var/www/vendor/yiisoft/yii2/db/Command.php(1159): yii\db\Command->internalExecute('SELECT COUNT(*)...')
+#2 /var/www/vendor/yiisoft/yii2/db/Command.php(427): yii\db\Command->queryInternal('fetchColumn', 0)
+#3 /var/www/vendor/yiisoft/yii2/db/ActiveQuery.php(361): yii\db\Command->queryScalar()
+#4 /var/www/vendor/yiisoft/yii2/db/Query.php(366): yii\db\ActiveQuery->queryScalar('COUNT(*)', Object(yii\db\Connection))
+#5 /var/www/models/User.php(89): yii\db\Query->count()
+#6 /var/www/models/SignupForm.php(30): app\models\User::getNextId()
+#7 /var/www/controllers/UserController.php(55): app\models\SignupForm->save()
+#8 [internal function]: app\controllers\UserController->actionSignup()
+#9 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#12 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#13 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /var/www/web/index.php(12): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`c`' at line 1
+)
+
+2020-05-19 23:32:08 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][info][application] $_GET = [
+    'r' => 'user/signup'
+]
+
+$_POST = [
+    '_csrf' => 'NFdUKyICAaKW9HWYD2kcZzyTcDv2M9DYdYojweAjtwVyLSZsG1Zsm97ZHu02P1QUC9EoCZl8h445v1Psgw7Qdg=='
+    'SignupForm' => [
+        'login' => 'mytest1'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs\";}'
+    'PHPSESSID' => '75de442f0c358cc9dd418babe00db7d0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs%22%3B%7D; PHPSESSID=75de442f0c358cc9dd418babe00db7d0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php?r=user%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.99.102:8500'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '175'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '50972'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '175'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589931128.6662
+    'REQUEST_TIME' => 1589931128
+    'argv' => [
+        0 => 'r=user%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-05-19 23:36:31 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][error][yii\base\InvalidCallException] yii\base\InvalidCallException: DB Connection is not active. in /var/www/vendor/yiisoft/yii2/db/Schema.php:371
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(889): yii\db\Schema->getLastInsertID('')
+#1 /var/www/vendor/yiisoft/yii2/base/Component.php(139): yii\db\Connection->getLastInsertID()
+#2 /var/www/models/User.php(89): yii\base\Component->__get('lastInsertID')
+#3 /var/www/models/SignupForm.php(30): app\models\User::getNextId()
+#4 /var/www/controllers/UserController.php(55): app\models\SignupForm->save()
+#5 [internal function]: app\controllers\UserController->actionSignup()
+#6 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#9 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#10 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-05-19 23:36:31 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][info][application] $_GET = [
+    'r' => 'user/signup'
+]
+
+$_POST = [
+    '_csrf' => '1zNRYf8bCOLjptdwl7dnpcK8gCvGKgDGMghvdPREGseRSSMmxk9l26uLvAWu4S_W9f7YGallV5B-PR9Zl2l9tA=='
+    'SignupForm' => [
+        'login' => 'mytest1'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs\";}'
+    'PHPSESSID' => '75de442f0c358cc9dd418babe00db7d0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs%22%3B%7D; PHPSESSID=75de442f0c358cc9dd418babe00db7d0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php?r=user%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.99.102:8500'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '175'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '50972'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '175'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589931391.4024
+    'REQUEST_TIME' => 1589931391
+    'argv' => [
+        0 => 'r=user%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-05-19 23:37:34 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][error][yii\base\InvalidCallException] yii\base\InvalidCallException: DB Connection is not active. in /var/www/vendor/yiisoft/yii2/db/Schema.php:371
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/db/Connection.php(889): yii\db\Schema->getLastInsertID('')
+#1 /var/www/vendor/yiisoft/yii2/base/Component.php(139): yii\db\Connection->getLastInsertID()
+#2 /var/www/models/User.php(89): yii\base\Component->__get('lastInsertID')
+#3 /var/www/models/SignupForm.php(30): app\models\User::getNextId()
+#4 /var/www/controllers/UserController.php(55): app\models\SignupForm->save()
+#5 [internal function]: app\controllers\UserController->actionSignup()
+#6 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#9 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#10 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-05-19 23:37:34 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][info][application] $_GET = [
+    'r' => 'user/signup'
+]
+
+$_POST = [
+    '_csrf' => 'lWMp4Q6GouL0G2HcRRelvoRnCfeKJDb4Tz2UCTCo3eTTGVumN9LP27w2Cql8Qe3NsyVRxeVrYa4DCOQkU4W6lw=='
+    'SignupForm' => [
+        'login' => 'mytest1'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs\";}'
+    'PHPSESSID' => '75de442f0c358cc9dd418babe00db7d0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs%22%3B%7D; PHPSESSID=75de442f0c358cc9dd418babe00db7d0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php?r=user%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.99.102:8500'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '175'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '50972'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '175'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589931454.0778
+    'REQUEST_TIME' => 1589931454
+    'argv' => [
+        0 => 'r=user%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-05-19 23:41:06 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][error][yii\base\ErrorException:8192] yii\base\ErrorException: Non-static method app\models\User::getNextId() should not be called statically in /var/www/models/SignupForm.php:30
+Stack trace:
+#0 /var/www/models/SignupForm.php(30): yii\base\ErrorHandler->handleError(8192, 'Non-static meth...', '/var/www/models...', 30, Array)
+#1 /var/www/controllers/UserController.php(55): app\models\SignupForm->save()
+#2 [internal function]: app\controllers\UserController->actionSignup()
+#3 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#6 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#7 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2020-05-19 23:41:06 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][info][application] $_GET = [
+    'r' => 'user/signup'
+]
+
+$_POST = [
+    '_csrf' => '4b4NpPQ7_ABb8jS2wXLiy1sYjPDeqfDyUKiWABEjKIqnxH_jzW-RORPfX8P4JKq4bFrUwrHmp6QcneYtcg5P-Q=='
+    'SignupForm' => [
+        'login' => 'mytest1'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs\";}'
+    'PHPSESSID' => '75de442f0c358cc9dd418babe00db7d0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs%22%3B%7D; PHPSESSID=75de442f0c358cc9dd418babe00db7d0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php?r=user%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.99.102:8500'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '175'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '50972'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '175'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589931666.2286
+    'REQUEST_TIME' => 1589931666
+    'argv' => [
+        0 => 'r=user%2Fsignup'
+    ]
+    'argc' => 1
+]
+2020-05-19 23:42:06 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][error][Error] Error: Class 'app\models\DB' not found in /var/www/models/User.php:89
+Stack trace:
+#0 /var/www/models/SignupForm.php(30): app\models\User->getNextId()
+#1 /var/www/controllers/UserController.php(55): app\models\SignupForm->save()
+#2 [internal function]: app\controllers\UserController->actionSignup()
+#3 /var/www/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('signup', Array)
+#6 /var/www/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('user/signup', Array)
+#7 /var/www/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/web/index.php(12): yii\base\Application->run()
+#9 {main}
+2020-05-19 23:42:06 [192.168.99.1][-][75de442f0c358cc9dd418babe00db7d0][info][application] $_GET = [
+    'r' => 'user/signup'
+]
+
+$_POST = [
+    '_csrf' => 'gZB9W-_iGtfTSiNG5O7iB8FuRNryXXCG27r6jdHuUkvH6g8c1rZ37ptnSDPduKp09iwc6J0SJ9CXj4qgssM1OA=='
+    'SignupForm' => [
+        'login' => 'mytest1'
+        'password' => '123456'
+    ]
+    'signup-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs\";}'
+    'PHPSESSID' => '75de442f0c358cc9dd418babe00db7d0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'HOME' => '/var/www'
+    'PS1' => '\\e[0;35mphd \\e[0;37m\\u container \\h \\e[0;32m\\w \\e[0;0m\\n$ '
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_MD5' => ''
+    'VERSION_XDEBUG' => '2.8.1'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_USER_ID' => '33'
+    'TERM' => 'linux'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PWD' => '/app'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'USER' => 'www-data'
+    'HTTP_COOKIE' => '_csrf=ea430a2ff15fad05f8ea5708de493a5c92d9ebb4089e9f7ab38072289e7a01cea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FzrG9Tm9H-ku9VHs7BX2oOWVL5p-c-gs%22%3B%7D; PHPSESSID=75de442f0c358cc9dd418babe00db7d0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://192.168.99.102:8500/index.php?r=user%2Fsignup'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://192.168.99.102:8500'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_CONTENT_LENGTH' => '175'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => '192.168.99.102:8500'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.22.0.4'
+    'REMOTE_PORT' => '50972'
+    'REMOTE_ADDR' => '192.168.99.1'
+    'SERVER_SOFTWARE' => 'nginx/1.17.10'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=user%2Fsignup'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '175'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=user%2Fsignup'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1589931725.9736
+    'REQUEST_TIME' => 1589931725
+    'argv' => [
+        0 => 'r=user%2Fsignup'
+    ]
+    'argc' => 1
+]

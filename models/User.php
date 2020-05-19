@@ -15,9 +15,6 @@ use yii\web\IdentityInterface;
  */
 class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
 {
-    /**
-     * {@inheritdoc}
-     */
     public static function tableName()
     {
         return 'users';
@@ -25,7 +22,7 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
 
     public static function findByUsername($username)
     {
-       return self::findOne(['users.login' => $username]);
+        return self::findOne(['users.login' => $username]);
     }
 
     /**
@@ -84,6 +81,6 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
      */
     public function validatePassword($password)
     {
-        return $this->password === $password;
+        return $this->password === Yii::$app->security->generatePasswordHash($password);
     }
 }
