@@ -50,15 +50,21 @@ class UserController extends \yii\web\Controller
      */
     public function actionSignup()
     {
+
         $model = new SignupForm();
+        if ($model->load(Yii::$app->request->get())) {
+
+            return $this->render('/user/signup');
+        }
+
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             Yii::$app->session->setFlash('success', 'User registered!');
 
             return $this->goHome();
         }
-        Yii::$app->session->setFlash('error', 'User can not registered!');
+    //Yii::$app->session->setFlash('error', 'User can not registered!');
 
-        return $this->render('signup', [
+        return $this->render('/user/signup', [
             'model' => $model,
         ]);
     }

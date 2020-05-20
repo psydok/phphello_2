@@ -10014,3 +10014,1223 @@ $_SERVER = [
     ]
     'argc' => 1
 ]
+2020-05-20 20:41:41 [-][-][-][error][Error] Error: Class 'app\commands\Loop' not found in /app/commands/HelloController.php:42
+Stack trace:
+#0 [internal function]: app\commands\HelloController->actionDaemon(0)
+#1 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /app/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /app/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('daemon', Array)
+#4 /app/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('daemon', Array)
+#5 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('hello/daemon', Array)
+#6 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('hello/daemon', Array)
+#7 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /app/yii(20): yii\base\Application->run()
+#9 {main}
+2020-05-20 20:41:41 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'HOME' => '/root'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'VERSION_XDEBUG' => '2.8.1'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590007301.4857
+    'REQUEST_TIME' => 1590007301
+    'argv' => [
+        0 => './yii'
+        1 => 'hello/daemon'
+    ]
+    'argc' => 2
+]
+2020-05-20 20:42:16 [-][-][-][error][TypeError] TypeError: Argument 2 passed to Amp\Loop::repeat() must be callable, string given, called in /app/commands/HelloController.php on line 44 and defined in /app/vendor/amphp/amp/lib/Loop.php:168
+Stack trace:
+#0 /app/commands/HelloController.php(44): Amp\Loop::repeat(1000, 'worker')
+#1 /app/vendor/amphp/amp/lib/Loop/Driver.php(119): app\commands\HelloController->app\commands\{closure}('a', NULL)
+#2 /app/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#3 /app/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#4 /app/commands/HelloController.php(46): Amp\Loop::run(Object(Closure))
+#5 [internal function]: app\commands\HelloController->actionDaemon(0)
+#6 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /app/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('daemon', Array)
+#9 /app/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('daemon', Array)
+#10 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('hello/daemon', Array)
+#11 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('hello/daemon', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/yii(20): yii\base\Application->run()
+#14 {main}
+2020-05-20 20:42:15 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'HOME' => '/root'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'VERSION_XDEBUG' => '2.8.1'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590007335.842
+    'REQUEST_TIME' => 1590007335
+    'argv' => [
+        0 => './yii'
+        1 => 'hello/daemon'
+    ]
+    'argc' => 2
+]
+2020-05-20 20:45:06 [-][-][-][error][TypeError] TypeError: Argument 2 passed to Amp\Loop::repeat() must be callable, string given, called in /app/commands/HelloController.php on line 44 and defined in /app/vendor/amphp/amp/lib/Loop.php:168
+Stack trace:
+#0 /app/commands/HelloController.php(44): Amp\Loop::repeat(1000, 'worker')
+#1 /app/vendor/amphp/amp/lib/Loop/Driver.php(119): app\commands\HelloController->app\commands\{closure}('a', NULL)
+#2 /app/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#3 /app/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#4 /app/commands/HelloController.php(46): Amp\Loop::run(Object(Closure))
+#5 [internal function]: app\commands\HelloController->actionDaemon(0)
+#6 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /app/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('daemon', Array)
+#9 /app/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('daemon', Array)
+#10 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('hello/daemon', Array)
+#11 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('hello/daemon', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/yii(20): yii\base\Application->run()
+#14 {main}
+2020-05-20 20:45:06 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'HOME' => '/root'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'VERSION_XDEBUG' => '2.8.1'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590007506.6874
+    'REQUEST_TIME' => 1590007506
+    'argv' => [
+        0 => './yii'
+        1 => 'hello/daemon'
+    ]
+    'argc' => 2
+]
+2020-05-20 20:45:45 [-][-][-][error][TypeError] TypeError: Argument 2 passed to Amp\Loop::repeat() must be callable, string given, called in /app/commands/HelloController.php on line 44 and defined in /app/vendor/amphp/amp/lib/Loop.php:168
+Stack trace:
+#0 /app/commands/HelloController.php(44): Amp\Loop::repeat(1000, 'worker')
+#1 /app/vendor/amphp/amp/lib/Loop/Driver.php(119): app\commands\HelloController->app\commands\{closure}('a', NULL)
+#2 /app/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#3 /app/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#4 /app/commands/HelloController.php(46): Amp\Loop::run(Object(Closure))
+#5 [internal function]: app\commands\HelloController->actionDaemon(0)
+#6 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /app/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('daemon', Array)
+#9 /app/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('daemon', Array)
+#10 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('hello/daemon', Array)
+#11 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('hello/daemon', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/yii(20): yii\base\Application->run()
+#14 {main}
+2020-05-20 20:45:45 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'HOME' => '/root'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'VERSION_XDEBUG' => '2.8.1'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590007545.5338
+    'REQUEST_TIME' => 1590007545
+    'argv' => [
+        0 => './yii'
+        1 => 'hello/daemon'
+    ]
+    'argc' => 2
+]
+2020-05-20 20:46:40 [-][-][-][error][TypeError] TypeError: Argument 2 passed to Amp\Loop::repeat() must be callable, string given, called in /app/commands/HelloController.php on line 44 and defined in /app/vendor/amphp/amp/lib/Loop.php:168
+Stack trace:
+#0 /app/commands/HelloController.php(44): Amp\Loop::repeat(1000, 'worker')
+#1 /app/vendor/amphp/amp/lib/Loop/Driver.php(119): app\commands\HelloController->app\commands\{closure}('a', NULL)
+#2 /app/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#3 /app/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#4 /app/commands/HelloController.php(46): Amp\Loop::run(Object(Closure))
+#5 [internal function]: app\commands\HelloController->actionDaemon(0)
+#6 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /app/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('daemon', Array)
+#9 /app/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('daemon', Array)
+#10 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('hello/daemon', Array)
+#11 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('hello/daemon', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/yii(20): yii\base\Application->run()
+#14 {main}
+2020-05-20 20:46:40 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'HOME' => '/root'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'VERSION_XDEBUG' => '2.8.1'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590007600.4297
+    'REQUEST_TIME' => 1590007600
+    'argv' => [
+        0 => './yii'
+        1 => 'hello/daemon'
+    ]
+    'argc' => 2
+]
+2020-05-20 21:22:09 [-][-][-][error][yii\console\UnknownCommandException] yii\base\InvalidRouteException: Unable to resolve the request "ws/run". in /app/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('ws/run', Array)
+#1 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('ws/run', Array)
+#2 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /app/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\console\UnknownCommandException: Unknown command "ws/run". in /app/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('ws/run', Array)
+#1 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /app/yii(20): yii\base\Application->run()
+#3 {main}
+2020-05-20 21:22:09 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'HOME' => '/root'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'VERSION_XDEBUG' => '2.8.1'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590009728.8654
+    'REQUEST_TIME' => 1590009728
+    'argv' => [
+        0 => './yii'
+        1 => 'ws/run'
+    ]
+    'argc' => 2
+]
+2020-05-20 21:22:37 [-][-][-][error][yii\base\UnknownClassException] yii\base\UnknownClassException: Unable to find 'app\commands\WsController' in file: /app/commands/WsController.php. Namespace missing? in /app/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\commands\\Ws...')
+#1 [internal function]: spl_autoload_call('app\\commands\\Ws...')
+#2 /app/vendor/yiisoft/yii2/base/Module.php(637): class_exists('app\\commands\\Ws...')
+#3 /app/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('ws')
+#4 /app/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('run')
+#5 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('ws/run', Array)
+#6 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('ws/run', Array)
+#7 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /app/yii(20): yii\base\Application->run()
+#9 {main}
+2020-05-20 21:22:37 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => 'bac18d44a99a'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'HOME' => '/root'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'VERSION_XDEBUG' => '2.8.1'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590009757.4189
+    'REQUEST_TIME' => 1590009757
+    'argv' => [
+        0 => './yii'
+        1 => 'ws/run'
+    ]
+    'argc' => 2
+]
+2020-05-20 22:07:14 [-][-][-][error][Error] Error: Class 'wsHandler' not found in /app/commands/WsController.php:30
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/base/BaseObject.php(109): app\commands\WsController->init()
+#1 /app/vendor/yiisoft/yii2/base/Controller.php(86): yii\base\BaseObject->__construct(Array)
+#2 [internal function]: yii\base\Controller->__construct('ws', Object(yii\console\Application), Array)
+#3 /app/vendor/yiisoft/yii2/di/Container.php(392): ReflectionClass->newInstanceArgs(Array)
+#4 /app/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('app\\commands\\Ws...', Array, Array)
+#5 /app/vendor/yiisoft/yii2/BaseYii.php(345): yii\di\Container->get('app\\commands\\Ws...', Array)
+#6 /app/vendor/yiisoft/yii2/base/Module.php(642): yii\BaseYii::createObject('app\\commands\\Ws...', Array)
+#7 /app/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('ws')
+#8 /app/vendor/yiisoft/yii2/console/controllers/HelpController.php(175): yii\base\Module->createController('')
+#9 [internal function]: yii\console\controllers\HelpController->yii\console\controllers\{closure}('ws')
+#10 /app/vendor/yiisoft/yii2/console/controllers/HelpController.php(182): array_filter(Array, Object(Closure))
+#11 /app/vendor/yiisoft/yii2/console/controllers/HelpController.php(192): yii\console\controllers\HelpController->getCommands()
+#12 /app/vendor/yiisoft/yii2/console/controllers/HelpController.php(292): yii\console\controllers\HelpController->getCommandDescriptions()
+#13 /app/vendor/yiisoft/yii2/console/controllers/HelpController.php(67): yii\console\controllers\HelpController->getDefaultHelp()
+#14 [internal function]: yii\console\controllers\HelpController->actionIndex(NULL)
+#15 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /app/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /app/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#18 /app/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#19 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('', Array)
+#20 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('', Array)
+#21 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 /app/yii(20): yii\base\Application->run()
+#23 {main}
+2020-05-20 22:07:13 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HOSTNAME' => '995ad671eda0'
+    'TERM' => 'linux'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_VERSION' => '7.3.18'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHP_MD5' => ''
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_USER_ID' => '33'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'VERSION_XDEBUG' => '2.8.1'
+    'HOME' => '/root'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590012433.7272
+    'REQUEST_TIME' => 1590012433
+    'argv' => [
+        0 => './yii'
+    ]
+    'argc' => 1
+]
+2020-05-20 22:08:07 [-][-][-][error][Error] Error: Class 'wsHandler' not found in /app/commands/WsController.php:30
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/base/BaseObject.php(109): app\commands\WsController->init()
+#1 /app/vendor/yiisoft/yii2/base/Controller.php(86): yii\base\BaseObject->__construct(Array)
+#2 [internal function]: yii\base\Controller->__construct('ws', Object(yii\console\Application), Array)
+#3 /app/vendor/yiisoft/yii2/di/Container.php(392): ReflectionClass->newInstanceArgs(Array)
+#4 /app/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('app\\commands\\Ws...', Array, Array)
+#5 /app/vendor/yiisoft/yii2/BaseYii.php(345): yii\di\Container->get('app\\commands\\Ws...', Array)
+#6 /app/vendor/yiisoft/yii2/base/Module.php(642): yii\BaseYii::createObject('app\\commands\\Ws...', Array)
+#7 /app/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('ws')
+#8 /app/vendor/yiisoft/yii2/console/controllers/HelpController.php(175): yii\base\Module->createController('')
+#9 [internal function]: yii\console\controllers\HelpController->yii\console\controllers\{closure}('ws')
+#10 /app/vendor/yiisoft/yii2/console/controllers/HelpController.php(182): array_filter(Array, Object(Closure))
+#11 /app/vendor/yiisoft/yii2/console/controllers/HelpController.php(192): yii\console\controllers\HelpController->getCommands()
+#12 /app/vendor/yiisoft/yii2/console/controllers/HelpController.php(292): yii\console\controllers\HelpController->getCommandDescriptions()
+#13 /app/vendor/yiisoft/yii2/console/controllers/HelpController.php(67): yii\console\controllers\HelpController->getDefaultHelp()
+#14 [internal function]: yii\console\controllers\HelpController->actionIndex(NULL)
+#15 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /app/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /app/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#18 /app/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#19 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('', Array)
+#20 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('', Array)
+#21 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 /app/yii(20): yii\base\Application->run()
+#23 {main}
+2020-05-20 22:08:07 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HOSTNAME' => '995ad671eda0'
+    'TERM' => 'linux'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_VERSION' => '7.3.18'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHP_MD5' => ''
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_USER_ID' => '33'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'VERSION_XDEBUG' => '2.8.1'
+    'HOME' => '/root'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590012486.9352
+    'REQUEST_TIME' => 1590012486
+    'argv' => [
+        0 => './yii'
+    ]
+    'argc' => 1
+]
+2020-05-20 22:08:48 [-][-][-][error][Error] Error: Class 'wsHandler' not found in /app/commands/WsController.php:30
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/base/BaseObject.php(109): app\commands\WsController->init()
+#1 /app/vendor/yiisoft/yii2/base/Controller.php(86): yii\base\BaseObject->__construct(Array)
+#2 [internal function]: yii\base\Controller->__construct('ws', Object(yii\console\Application), Array)
+#3 /app/vendor/yiisoft/yii2/di/Container.php(392): ReflectionClass->newInstanceArgs(Array)
+#4 /app/vendor/yiisoft/yii2/di/Container.php(159): yii\di\Container->build('app\\commands\\Ws...', Array, Array)
+#5 /app/vendor/yiisoft/yii2/BaseYii.php(345): yii\di\Container->get('app\\commands\\Ws...', Array)
+#6 /app/vendor/yiisoft/yii2/base/Module.php(642): yii\BaseYii::createObject('app\\commands\\Ws...', Array)
+#7 /app/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('ws')
+#8 /app/vendor/yiisoft/yii2/console/controllers/HelpController.php(175): yii\base\Module->createController('')
+#9 [internal function]: yii\console\controllers\HelpController->yii\console\controllers\{closure}('ws')
+#10 /app/vendor/yiisoft/yii2/console/controllers/HelpController.php(182): array_filter(Array, Object(Closure))
+#11 /app/vendor/yiisoft/yii2/console/controllers/HelpController.php(192): yii\console\controllers\HelpController->getCommands()
+#12 /app/vendor/yiisoft/yii2/console/controllers/HelpController.php(292): yii\console\controllers\HelpController->getCommandDescriptions()
+#13 /app/vendor/yiisoft/yii2/console/controllers/HelpController.php(67): yii\console\controllers\HelpController->getDefaultHelp()
+#14 [internal function]: yii\console\controllers\HelpController->actionIndex(NULL)
+#15 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#16 /app/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#17 /app/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('', Array)
+#18 /app/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('', Array)
+#19 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('', Array)
+#20 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('', Array)
+#21 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#22 /app/yii(20): yii\base\Application->run()
+#23 {main}
+2020-05-20 22:08:48 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '995ad671eda0'
+    'PHP_VERSION' => '7.3.18'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'PHP_MD5' => ''
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'HOME' => '/root'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'VERSION_XDEBUG' => '2.8.1'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590012528.6875
+    'REQUEST_TIME' => 1590012528
+    'argv' => [
+        0 => './yii'
+    ]
+    'argc' => 1
+]
+2020-05-20 22:10:17 [-][-][-][error][Error] Error: Class 'app\commands\SocketServer' not found in /app/commands/WsController.php:41
+Stack trace:
+#0 [internal function]: app\commands\WsController->actionRun()
+#1 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /app/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /app/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('run', Array)
+#4 /app/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('run', Array)
+#5 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('ws/run', Array)
+#6 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('ws/run', Array)
+#7 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /app/yii(20): yii\base\Application->run()
+#9 {main}
+2020-05-20 22:10:17 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HOSTNAME' => '995ad671eda0'
+    'TERM' => 'linux'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_VERSION' => '7.3.18'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHP_MD5' => ''
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_USER_ID' => '33'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'VERSION_XDEBUG' => '2.8.1'
+    'HOME' => '/root'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590012617.3032
+    'REQUEST_TIME' => 1590012617
+    'argv' => [
+        0 => './yii'
+        1 => 'ws/run'
+    ]
+    'argc' => 2
+]
+2020-05-20 22:11:34 [-][-][-][error][Error] Error: Class 'app\commands\SocketServer' not found in /app/commands/WsController.php:43
+Stack trace:
+#0 [internal function]: app\commands\WsController->actionRun()
+#1 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /app/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /app/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('run', Array)
+#4 /app/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('run', Array)
+#5 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('ws/run', Array)
+#6 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('ws/run', Array)
+#7 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /app/yii(20): yii\base\Application->run()
+#9 {main}
+2020-05-20 22:11:34 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HOSTNAME' => '995ad671eda0'
+    'TERM' => 'linux'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_VERSION' => '7.3.18'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHP_MD5' => ''
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_USER_ID' => '33'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'VERSION_XDEBUG' => '2.8.1'
+    'HOME' => '/root'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590012694.1522
+    'REQUEST_TIME' => 1590012694
+    'argv' => [
+        0 => './yii'
+        1 => 'ws/run'
+    ]
+    'argc' => 2
+]
+2020-05-20 22:12:12 [-][-][-][error][Error] Error: Class 'app\commands\SocketServer' not found in /app/commands/WsController.php:43
+Stack trace:
+#0 [internal function]: app\commands\WsController->actionRun()
+#1 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /app/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /app/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('run', Array)
+#4 /app/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('run', Array)
+#5 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('ws/run', Array)
+#6 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('ws/run', Array)
+#7 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /app/yii(20): yii\base\Application->run()
+#9 {main}
+2020-05-20 22:12:12 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HOSTNAME' => '995ad671eda0'
+    'TERM' => 'linux'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_VERSION' => '7.3.18'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHP_MD5' => ''
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_USER_ID' => '33'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'VERSION_XDEBUG' => '2.8.1'
+    'HOME' => '/root'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590012732.6957
+    'REQUEST_TIME' => 1590012732
+    'argv' => [
+        0 => './yii'
+        1 => 'ws/run'
+    ]
+    'argc' => 2
+]
+2020-05-20 22:13:22 [-][-][-][error][Error] Error: Document root requires a readable directory in /app/vendor/amphp/http-server-static-content/src/DocumentRoot.php:90
+Stack trace:
+#0 /app/commands/WsController.php(48): Amp\Http\Server\StaticContent\DocumentRoot->__construct('/app/commands/....')
+#1 [internal function]: app\commands\WsController->actionRun()
+#2 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /app/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /app/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('run', Array)
+#5 /app/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('run', Array)
+#6 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('ws/run', Array)
+#7 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('ws/run', Array)
+#8 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#9 /app/yii(20): yii\base\Application->run()
+#10 {main}
+2020-05-20 22:13:22 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HOSTNAME' => '995ad671eda0'
+    'TERM' => 'linux'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_VERSION' => '7.3.18'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHP_MD5' => ''
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_USER_ID' => '33'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'VERSION_XDEBUG' => '2.8.1'
+    'HOME' => '/root'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590012802.6641
+    'REQUEST_TIME' => 1590012802
+    'argv' => [
+        0 => './yii'
+        1 => 'ws/run'
+    ]
+    'argc' => 2
+]
+2020-05-20 22:14:05 [-][-][-][error][Error] Error: Class 'app\commands\Logger' not found in /app/commands/WsController.php:52
+Stack trace:
+#0 [internal function]: app\commands\WsController->actionRun()
+#1 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#2 /app/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 /app/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('run', Array)
+#4 /app/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('run', Array)
+#5 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('ws/run', Array)
+#6 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('ws/run', Array)
+#7 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 /app/yii(20): yii\base\Application->run()
+#9 {main}
+2020-05-20 22:14:05 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HOSTNAME' => '995ad671eda0'
+    'TERM' => 'linux'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_VERSION' => '7.3.18'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHP_MD5' => ''
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_USER_ID' => '33'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'VERSION_XDEBUG' => '2.8.1'
+    'HOME' => '/root'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590012844.8775
+    'REQUEST_TIME' => 1590012844
+    'argv' => [
+        0 => './yii'
+        1 => 'ws/run'
+    ]
+    'argc' => 2
+]
+2020-05-20 22:14:28 [-][-][-][error][yii\base\ErrorException:1] yii\base\ErrorException: Uncaught yii\base\ErrorException: Object of class Amp\Coroutine could not be converted to string in /app/yii:21
+Stack trace:
+#0 /app/yii(21): yii\base\ErrorHandler->handleError(4096, 'Object of class...', '/app/yii', 21, Array)
+#1 {main}
+  thrown in /app/yii:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-05-20 22:14:27 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HOSTNAME' => '995ad671eda0'
+    'TERM' => 'linux'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_VERSION' => '7.3.18'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHP_MD5' => ''
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_USER_ID' => '33'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'VERSION_XDEBUG' => '2.8.1'
+    'HOME' => '/root'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590012867.6867
+    'REQUEST_TIME' => 1590012867
+    'argv' => [
+        0 => './yii'
+        1 => 'ws/run'
+    ]
+    'argc' => 2
+]
+2020-05-20 22:15:30 [-][-][-][error][yii\base\ErrorException:1] yii\base\ErrorException: Uncaught yii\base\ErrorException: Object of class Amp\Coroutine could not be converted to string in /app/yii:21
+Stack trace:
+#0 /app/yii(21): yii\base\ErrorHandler->handleError(4096, 'Object of class...', '/app/yii', 21, Array)
+#1 {main}
+  thrown in /app/yii:21
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-05-20 22:15:30 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HOSTNAME' => '995ad671eda0'
+    'TERM' => 'linux'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_VERSION' => '7.3.18'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHP_MD5' => ''
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_USER_ID' => '33'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'VERSION_XDEBUG' => '2.8.1'
+    'HOME' => '/root'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590012930.3959
+    'REQUEST_TIME' => 1590012930
+    'argv' => [
+        0 => './yii'
+        1 => 'ws/run'
+    ]
+    'argc' => 2
+]
+2020-05-20 22:18:57 [-][-][-][error][yii\base\ErrorException:64] yii\base\ErrorException: Cannot use yii\console\ExitCode as ExitCode because the name is already in use in /app/commands/WsController.php:20
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2020-05-20 22:18:57 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HOSTNAME' => '995ad671eda0'
+    'TERM' => 'linux'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_VERSION' => '7.3.18'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHP_MD5' => ''
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_USER_ID' => '33'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'VERSION_XDEBUG' => '2.8.1'
+    'HOME' => '/root'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590013136.9354
+    'REQUEST_TIME' => 1590013136
+    'argv' => [
+        0 => './yii'
+        1 => 'ws/run'
+    ]
+    'argc' => 2
+]
+2020-05-20 22:23:57 [-][-][-][error][Amp\Socket\SocketException] Amp\Socket\SocketException: Could not create server tcp://192.168.99.102:1337: [Error: #0] Cannot assign requested address in /app/vendor/amphp/socket/src/Server.php:58
+Stack trace:
+#0 /app/commands/WsController.php(47): Amp\Socket\Server::listen('tcp://192.168.9...')
+#1 /app/vendor/amphp/amp/lib/Loop/Driver.php(119): app\commands\WsController->app\commands\{closure}('a', NULL)
+#2 /app/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#3 /app/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#4 /app/commands/WsController.php(62): Amp\Loop::run(Object(Closure))
+#5 [internal function]: app\commands\WsController->actionRun()
+#6 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /app/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('run', Array)
+#9 /app/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('run', Array)
+#10 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('ws/run', Array)
+#11 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('ws/run', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/yii(20): yii\base\Application->run()
+#14 {main}
+2020-05-20 22:23:57 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HOSTNAME' => '995ad671eda0'
+    'TERM' => 'linux'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_VERSION' => '7.3.18'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHP_MD5' => ''
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_USER_ID' => '33'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'VERSION_XDEBUG' => '2.8.1'
+    'HOME' => '/root'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590013437.4144
+    'REQUEST_TIME' => 1590013437
+    'argv' => [
+        0 => './yii'
+        1 => 'ws/run'
+    ]
+    'argc' => 2
+]
+2020-05-20 22:24:18 [-][-][-][error][Amp\Socket\SocketException] Amp\Socket\SocketException: Could not create server tcp://localhost:1337: [Error: #0] Cannot assign requested address in /app/vendor/amphp/socket/src/Server.php:58
+Stack trace:
+#0 /app/commands/WsController.php(47): Amp\Socket\Server::listen('tcp://localhost...')
+#1 /app/vendor/amphp/amp/lib/Loop/Driver.php(119): app\commands\WsController->app\commands\{closure}('a', NULL)
+#2 /app/vendor/amphp/amp/lib/Loop/Driver.php(72): Amp\Loop\Driver->tick()
+#3 /app/vendor/amphp/amp/lib/Loop.php(95): Amp\Loop\Driver->run()
+#4 /app/commands/WsController.php(62): Amp\Loop::run(Object(Closure))
+#5 [internal function]: app\commands\WsController->actionRun()
+#6 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /app/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /app/vendor/yiisoft/yii2/console/Controller.php(164): yii\base\Controller->runAction('run', Array)
+#9 /app/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('run', Array)
+#10 /app/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('ws/run', Array)
+#11 /app/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('ws/run', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /app/yii(20): yii\base\Application->run()
+#14 {main}
+2020-05-20 22:24:17 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'HOSTNAME' => '995ad671eda0'
+    'TERM' => 'linux'
+    'TZ' => '\"Asia/Yekaterinburg\"'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--enable-fpm --with-fpm-user=www-data --with-fpm-group=www-data --disable-cgi'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'GPG_KEYS' => 'CBAF69F173A0FEA4B537F470D66C9593118BCCB6 F38252826ACD957EF380D39F2F7956BC5DA04B5D'
+    'PHP_VERSION' => '7.3.18'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.3.18.tar.xz.asc'
+    'PHP_SHA256' => '7b3e2479a8d6fd7666dcdef8aec50d49c4599cc6ee86e48d41724cfd99cc9e58'
+    'PHP_MD5' => ''
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_USER_ID' => '33'
+    'PHP_ENABLE_XDEBUG' => '0'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.7'
+    'VERSION_XDEBUG' => '2.8.1'
+    'HOME' => '/root'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1590013457.7269
+    'REQUEST_TIME' => 1590013457
+    'argv' => [
+        0 => './yii'
+        1 => 'ws/run'
+    ]
+    'argc' => 2
+]
