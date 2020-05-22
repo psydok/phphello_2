@@ -3,7 +3,6 @@
 
 namespace app\models;
 
-use Yii;
 use yii\base\Model;
 
 class SignupForm extends Model
@@ -18,6 +17,7 @@ class SignupForm extends Model
     {
         return [
             ['login', 'trim'],
+            ['login', 'unique', 'targetClass' => User::className(), 'message' => 'This login already registered!'],
             ['login', 'string', 'min' => 3, 'max' => 255],
             [['login', 'password'], 'required'],
             ['password', 'string', 'min' => 6],
@@ -29,7 +29,7 @@ class SignupForm extends Model
            $user = new User();
            $user->id = $user->getId();
            $user->login = $this->login;
-           $user->password =Yii::$app->security->generatePasswordHash($this->password);
+           $user->password = md5($this->password);
            return $user->save();
         }
 

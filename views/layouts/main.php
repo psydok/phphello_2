@@ -37,24 +37,25 @@ AppAsset::register($this);
         ],
     ]);
     $menuItem = [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'About', 'url' => ['/site/about']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
-            Yii::$app->user->isGuest ? (
-            ['label' => 'Login', 'url' => ['/user/login']]
-            ) : (
-                '<li>'
-                . Html::beginForm(['/user/logout'], 'post')
-                . Html::submitButton(
-                    'Logout (' . Yii::$app->user->identity->login . ')',
-                    ['class' => 'btn btn-link logout']
-                )
-                . Html::endForm()
-                . '</li>'
-            )
+        ['label' => 'Home', 'url' => ['/site/index']],
+        ['label' => 'About', 'url' => ['/site/about']],
+        ['label' => 'Contact', 'url' => ['/site/contact']]
     ];
 
+    if (!Yii::$app->user->isGuest){
+        $menuItem[] =  ['label' => 'Users', 'url' => ['/admin/index']];
+        $menuItem[] = '<li>'
+            . Html::beginForm(['/user/logout'], 'post')
+            . Html::submitButton(
+                'Logout (' . Yii::$app->user->identity->login . ')',
+                ['class' => 'btn btn-link logout']
+            )
+            . Html::endForm()
+            . '</li>';
+    }
+
     if (Yii::$app->user->isGuest){
+        $menuItem[] = ['label' => 'Login', 'url' => ['/user/login']];
         $menuItem[] = ['label' => 'Signup', 'url' => ['/user/signup']];
     }
 

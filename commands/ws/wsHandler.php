@@ -29,7 +29,6 @@ class wsHandler implements ClientHandler
     const ALLOWED_ORIGINS = [
         'http://192.168.99.102:1337',
         'http://0.0.0.0:1337',
-
     ];
 
     public function handleHandshake(Endpoint $endpoint, Request $request, Response $response): Promise
@@ -54,5 +53,4 @@ class wsHandler implements ClientHandler
             }
         });
     }
-
 }

@@ -32,7 +32,8 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
     {
         return [
             [['id'], 'integer'],
-            [['login', 'password'], 'string', 'max' => 255],
+            ['login', 'unique', 'message' => 'This login already registered!'],
+            [['login', 'password'], 'required'],
         ];
     }
 
@@ -81,6 +82,6 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
      */
     public function validatePassword($password)
     {
-        return $this->password === Yii::$app->security->generatePasswordHash($password);
+        return $this->password === md5($password);
     }
 }

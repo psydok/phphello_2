@@ -26,6 +26,7 @@ class UserController extends \yii\web\Controller
         }
 
         $model->password = '';
+
         return $this->render('login', [
             'model' => $model,
         ]);
@@ -46,23 +47,20 @@ class UserController extends \yii\web\Controller
     /**
      * Register action.
      *
-     * @return Response
+     * @return string
      */
     public function actionSignup()
     {
-
-        $model = new SignupForm();
-        if ($model->load(Yii::$app->request->get())) {
-
-            return $this->render('/user/signup');
+        if (!Yii::$app->user->isGuest) {
+            return $this->goHome();
         }
 
+        $model = new SignupForm();
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             Yii::$app->session->setFlash('success', 'User registered!');
 
             return $this->goHome();
         }
-    //Yii::$app->session->setFlash('error', 'User can not registered!');
 
         return $this->render('/user/signup', [
             'model' => $model,
