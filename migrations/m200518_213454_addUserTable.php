@@ -4,6 +4,7 @@ use yii\db\Migration;
 
 /**
  * Class m200518_213454_addUserTable
+ * With description table for User
  */
 class m200518_213454_addUserTable extends Migration
 {

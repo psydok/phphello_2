@@ -2,14 +2,16 @@
 /* @var $this yii\web\View
  * @var $usersList [] app\models\User
  */
+
 use yii\helpers\Url;
+
 ?>
 
 <h1>Users</h1>
 
 <br>
 
-<a href="<?php echo Url::to(['admin/create']); ?>" class="btn btn-primary">Create new user</a>
+<a href="<?php echo Url::to(['admin/create']); ?>" class="btn btn-success">Create new user</a>
 
 <br><br>
 

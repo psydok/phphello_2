@@ -31,7 +31,7 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
     public function rules()
     {
         return [
-            [['id'], 'integer'],
+            ['id', 'integer'],
             ['login', 'unique', 'message' => 'This login already registered!'],
             [['login', 'password'], 'required'],
         ];
