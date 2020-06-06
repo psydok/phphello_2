@@ -2,77 +2,65 @@
 
 namespace app\modules\api\controllers;
 
-use app\modules\api\models\Metric;
+use app\modules\metric\models\Metric;
 use Yii;
 use yii\data\ActiveDataProvider;
-use yii\web\Response;
-use yii\helpers\Url;
-use function Amp\Iterator\map;
-use function GuzzleHttp\Psr7\copy_to_string;
-use function GuzzleHttp\Psr7\str;
+use yii\filters\AccessControl;
 
-class MetricController extends \yii\web\Controller
+
+class MetricController extends \yii\rest\Controller
 {
-    public $enableCsrfValidation = false;
-
     /**
-     * GET request on input metric with condition WHERE
-     * @return array data of metric from db
+     * GET request on input
+     * @return string
      */
     public function actionIndex()
     {
-        Yii::$app->response->format = Response::FORMAT_JSON;
+        $dataProvider = new ActiveDataProvider([
+            'query' => Metric::find()
+        ]);
 
-        $request = Yii::$app->request;
-//        $dataProvider = new ActiveDataProvider([
-//            'query' => Metric::find(),
-//            'pagination' => array('pageSize' => 10),
-//        ]);
-        $name = $request->getBodyParam('name');
-        $field = $request->getBodyParam('field');
-        $value = $request->getBodyParam('value');
-
-        $params = array();
-
-        if (!is_null($name))
-            $params['name'] = $name;
-
-        if (!is_null($field))
-            $params['field'] = $field;
-
-        if (!is_null($value))
-            $params['value'] = $value;
-
-//       var_dump($params);
-
-        $metric = Metric::find()->where($params)->all();
-
-        if (count($metric) > 0) {
-            return array('status' => true, 'data' => $metric);
-        }
-
-        return array('status' => false, 'data' => 'No data found');
+        return $dataProvider;
     }
 
     /**
      * POST request on input metric
-     * @return array with info about status operation
+     * @return Metric
      */
     public function actionCreate()
     {
-        Yii::$app->response->format = Response::FORMAT_JSON;
+        $data = Yii::$app->request->getBodyParams();
 
-        $metric = new Metric();
-        $metric->scenario = Metric::SCENARIO_CREATE;
-        $metric->attributes = Yii::$app->request->post();
+        $model = new Metric();
 
-        if ($metric->validate()) {
-            $metric->add();
-
-            return array('status' => true, 'data' => 'Metric created successfully');
+        if ($model->load($data, '') && $model->validate()) {
+            if ($model->add()) {
+                Yii::$app->response->setStatusCode(201);
+            }
         }
-        
-        return array('status' => false, 'data' => $metric->getErrors());
+
+        return $model;
     }
 
+    /** @inheritDoc */
+    public function behaviors()
+    {
+        $behaviors = parent::behaviors();
+
+//        $behaviors['authenticatior'] = [
+//            'class' => HttpBearerAuth::class,
+//        ];
+
+        $behaviors['access'] = [
+            'class' => AccessControl::class,
+            'rules' => [
+                [
+                    'allow' => true, //разрешить всех
+                    'roles' => ['@'],//всех, кто авторизирован
+                ],
+            ],
+        ];
+
+        return $behaviors;
+    }
 }

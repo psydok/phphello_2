@@ -39,13 +39,15 @@ AppAsset::register($this);
     $menuItem = [
         ['label' => 'Home', 'url' => ['/site/index']],
         ['label' => 'About', 'url' => ['/site/about']],
+        ['label' => 'API', 'url' => ['/api/metric/index']],
+        ['label' => 'List Metrics', 'url' => ['/metric/show/list']],
         ['label' => 'Contact', 'url' => ['/site/contact']]
     ];
 
     if (!Yii::$app->user->isGuest){
-        $menuItem[] =  ['label' => 'Users', 'url' => ['/admin/index']];
+        $menuItem[] =  ['label' => 'Users', 'url' => ['/admin/admin/index']];
         $menuItem[] = '<li>'
-            . Html::beginForm(['/user/logout'], 'post')
+            . Html::beginForm(['/user/user/logout'], 'post')
             . Html::submitButton(
                 'Logout (' . Yii::$app->user->identity->login . ')',
                 ['class' => 'btn btn-link logout']
@@ -55,8 +57,8 @@ AppAsset::register($this);
     }
 
     if (Yii::$app->user->isGuest){
-        $menuItem[] = ['label' => 'Login', 'url' => ['/user/login']];
-        $menuItem[] = ['label' => 'Signup', 'url' => ['/user/signup']];
+        $menuItem[] = ['label' => 'Login', 'url' => ['/user/user/login']];
+        $menuItem[] = ['label' => 'Signup', 'url' => ['/user/user/signup']];
     }
 
     echo Nav::widget([

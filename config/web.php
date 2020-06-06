@@ -13,16 +13,32 @@ $config = [
         'api' => [
             'class' => 'app\modules\api\Api',
         ],
+        'websocket' => [
+            'class' => 'app\modules\websocket\WebsocketModule',
+        ],
+        'metric' => [
+            'class' => 'app\modules\metric\MetricModule',
+        ],
+        'user' => [
+            'class' => 'app\modules\user\UserModule',
+        ],
+        'admin' => [
+            'class' => 'app\modules\admin\AdminModule',
+        ],
     ],
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
-        '@npm'   => '@vendor/npm-asset',
+        '@npm' => '@vendor/npm-asset',
     ],
-
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'lhU9AN4qlH_nr6w9G4E__Arxo_UHLhKO',
+            'parsers' => [
+                'multipart/form-data' => 'yii\web\MultipartFormDataParser',
+                'application/json' => 'yii\web\JsonParser',
+
+            ],
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
@@ -57,19 +73,10 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'enableStrictParsing' => false,
             'rules' => [
-                // ...
+               ['class' => \yii\rest\UrlRule::class, 'controller' => 'api/metric'],
             ],
         ],
-        /*
-        'urlManager' => [
-            'enablePrettyUrl' => true,
-            'showScriptName' => false,
-            'rules' => [
-            ],
-        ],*/
-
     ],
     'params' => $params,
 ];

@@ -1269,3 +1269,16 @@ yii\web\HeadersAlreadySentException: Headers already sent in /var/www/modules/ap
 Stack trace:
 #0 /var/www/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
 #1 /var/www/vendor/yiisoft" while reading upstream, client: 192.168.99.1, server: localhost, request: "GET /api/metric/search HTTP/1.1", upstream: "fastcgi://unix:/var/run/php7-fpm.sock:", host: "192.168.99.102:8500"
+2020/06/06 09:27:25 [error] 13#13: *555 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /var/www/modules/api/controllers/MetricController.php on line 56. in /var/www/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /var/www/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /var/www/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /var/www/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: Array to string conversion in /var/www/modules/api/controllers/MetricController.php:56
+Stack trace:
+#0 /var/www/modules/api/controllers/MetricController.php(56): yii\base\ErrorHandler->handleError(8, 'Array to string...', '/var/www/module...', 56, Array)
+#1 [internal function]: app\modules\api\controller" while reading upstream, client: 192.168.99.1, server: 192.168.99.102, request: "GET /api/metric/create HTTP/1.1", upstream: "fastcgi://unix:/var/run/php7-fpm.sock:", host: "192.168.99.102:8500"

@@ -2,7 +2,6 @@
 
 namespace app\models;
 
-use http\Exception\RuntimeException;
 use Yii;
 use yii\web\IdentityInterface;
 
@@ -12,6 +11,7 @@ use yii\web\IdentityInterface;
  * @property int $id
  * @property string|null $login
  * @property string|null $password
+ * @property string $accessToken
  */
 class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
 {
@@ -34,7 +34,17 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
             ['id', 'integer'],
             ['login', 'unique', 'message' => 'This login already registered!'],
             [['login', 'password'], 'required'],
+            ['accessToken', 'string', 'max' => 128],
         ];
+    }
+
+    public function beforeSave($insert)
+    {
+        if (empty($this->accessToken)) {
+            $this->accessToken = random_bytes(128);
+        }
+
+        return parent::beforeSave($insert);
     }
 
     /**
@@ -56,7 +66,7 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
 
     public static function findIdentityByAccessToken($token, $type = null)
     {
-        throw new \RuntimeException('Not implement');
+        return self::findOne(['users.accessToken' => $token]);
     }
 
     public function getId()
