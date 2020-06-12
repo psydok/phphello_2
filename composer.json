@@ -22,7 +22,8 @@
         "amphp/http-server-static-content": "^1.0",
         "amphp/log": "^1.1",
         "amphp/http-server-router": "^1.0",
-        "amphp/websocket-server": "^2.0"
+        "amphp/websocket-server": "^2.0",
+      "ext-http": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.1.0",

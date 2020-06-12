@@ -29,8 +29,6 @@ class HelloController extends Controller
 
     public function init(){
         parent::init();
-
-
     }
 
 

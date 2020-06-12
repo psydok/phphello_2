@@ -46,7 +46,7 @@ class MetricController extends \yii\rest\Controller
     public function behaviors()
     {
         $behaviors = parent::behaviors();
-
+//
 //        $behaviors['authenticatior'] = [
 //            'class' => HttpBearerAuth::class,
 //        ];

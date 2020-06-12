@@ -9,10 +9,10 @@ services:
       - ./:/app:delegated
       - ./:/var/www
       - "phpsocket:/var/run"
+    ports:
+      - "1337:1337"
     depends_on:
       - db
-    ports:
-    - "1337:1337"
     environment:
       - TZ="Asia/Yekaterinburg"
 
@@ -32,11 +32,20 @@ services:
   db:
     image: mariadb:10.3
     ports:
-      - 3306:3306
+      - "3306:3306"
     volumes:
       - db:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: 123456
+
+  npm:
+    build:
+      dockerfile: ./docker/npm/Dockerfile
+      context: ./.
+    volumes:
+      - ./:/app:delegated
+    env_file:
+      - .env
 
 volumes:
   phpsocket:

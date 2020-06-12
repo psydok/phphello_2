@@ -4,10 +4,11 @@
  */
 
 use yii\helpers\Url;
-
+$this->title = 'CRUD users';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 
-<h1>Users</h1>
+<h1>CRUD users</h1>
 
 <br>
 

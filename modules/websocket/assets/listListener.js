@@ -1,14 +1,12 @@
-// jshint esversion:6
-// jshint node: true
-// jshint strict: true
+"use strict";
 console.log("I'm fine");
 
-var ws = new WebSocket("ws://192.168.99.102:1337/broadcast");
+var ws = new WebSocket("ws://192.168.99.102:1337/websocket/ws/run/broadcast");
 var list = document.getElementById("messages");
 var input = document.querySelector('input[name=message]');
 
-ws.addEventListener("message", function(e) {
-    "use strict";
+ws.addEventListener("message", function (e) {
+
     console.log(e.data);
 
     var listItem = document.createElement('li');
@@ -16,14 +14,29 @@ ws.addEventListener("message", function(e) {
     listItem.textContent = e.data;
 
     list.append(listItem);
+    var postData = listItem.textContent.substring(listItem.textContent.indexOf(':') + 1, listItem.textContent.length);
 
-    while (list.children.length > 5) {
+    var settings = {
+        "url": "http://192.168.99.102:8500/api/metrics",
+        "method": "POST",
+        "timeout": 5,
+        "headers": {
+            "Content-Type": "application/json"
+        },
+        "data": JSON.stringify(postData),
+    };
+
+    $.ajax(settings).done(function (response) {
+        console.log(response);
+    });
+
+    while (list.children.length > 10) {
         list.removeChild(list.firstChild);
     }
 });
 
 input.addEventListener('keyup', function (e) {
-    "use strict";
+
     if (e.keyCode === 13) {
         e.preventDefault();
 

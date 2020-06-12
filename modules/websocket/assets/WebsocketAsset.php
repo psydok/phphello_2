@@ -14,3 +14,4 @@ class WebsocketAsset extends AssetBundle
         'listListener.css'
     ];
 }
+?>
