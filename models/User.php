@@ -4,6 +4,7 @@ namespace app\models;
 
 use Yii;
 use yii\web\IdentityInterface;
+use function Sodium\randombytes_random16;
 
 /**
  * This is the model class for table "users".
@@ -34,14 +35,13 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
             ['id', 'integer'],
             ['login', 'unique', 'message' => 'This login already registered!'],
             [['login', 'password'], 'required'],
-            ['accessToken', 'string', 'max' => 128],
         ];
     }
 
     public function beforeSave($insert)
     {
         if (empty($this->accessToken)) {
-            $this->accessToken = random_bytes(128);
+            $this->accessToken = random_int(1,99999);
         }
 
         return parent::beforeSave($insert);
@@ -55,7 +55,7 @@ class User extends \yii\db\ActiveRecord implements \yii\web\IdentityInterface
         return [
             'id' => 'ID',
             'login' => 'Login',
-            'password' => 'Password',
+            'password' => 'Password'
         ];
     }
 

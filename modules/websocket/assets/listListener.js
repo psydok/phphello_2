@@ -1,7 +1,6 @@
-"use strict";
 console.log("I'm fine");
 
-var ws = new WebSocket("ws://192.168.99.102:1337/websocket/ws/run/broadcast");
+var ws = new WebSocket("ws://192.168.99.102:1337/websocket/list/index/broadcast");
 var list = document.getElementById("messages");
 var input = document.querySelector('input[name=message]');
 
@@ -14,6 +13,7 @@ ws.addEventListener("message", function (e) {
     listItem.textContent = e.data;
 
     list.append(listItem);
+
     var postData = listItem.textContent.substring(listItem.textContent.indexOf(':') + 1, listItem.textContent.length);
 
     var settings = {
@@ -23,7 +23,7 @@ ws.addEventListener("message", function (e) {
         "headers": {
             "Content-Type": "application/json"
         },
-        "data": JSON.stringify(postData),
+        "data": JSON.stringify(JSON.parse(postData)),
     };
 
     $.ajax(settings).done(function (response) {

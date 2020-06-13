@@ -26,10 +26,12 @@ DIRECTORY STRUCTURE
       controllers/        contains Web controller classes
       mail/               contains view files for e-mails
       models/             contains model classes
+      modules/            contains modules classes
       runtime/            contains files generated during runtime
       tests/              contains various tests for the basic application
       vendor/             contains dependent 3rd-party packages
       views/              contains view files for the Web application
+      vue/                contains vue files for the dynamic and realtime app
       web/                contains the entry script and Web resources
 
 
@@ -231,3 +233,18 @@ vendor/bin/codecept run functional,unit -- --coverage-html --coverage-xml
 ```
 
 You can see code coverage output under the `tests/_output` directory.
+
+### Running  websocket
+
+1. Open console php-container:
+    ```
+    exec: bash
+    ```
+2. Input command daemon:
+    ```
+    root@094b4a8039c4:/app# ./yii ws/run
+    ```
+ 3. For added telemetryies with websocket, open Websocket in brower and input:
+     ```
+     {"name":"cpu","field":"temp","value":"1"}
+    ```

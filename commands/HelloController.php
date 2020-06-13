@@ -22,7 +22,7 @@ use yii\console\ExitCode;
 class HelloController extends Controller
 {
     /**
-     * @var your text
+     * @var $myText string your text
      */
     public $myText;
 
