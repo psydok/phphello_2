@@ -1,3 +1,3 @@
 let mix = require('laravel-mix');
 
-mix.js('C:\\Users\\max\\Desktop\\phphello\\vue\\app.vue.js', 'C:\\Users\\max\\Desktop\\phphello\\vue\\js\\app.js');
+mix.js('vue/app.vue.js', 'vue/js/app.js');

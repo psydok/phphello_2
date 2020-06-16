@@ -19,7 +19,7 @@ ws.addEventListener("message", function (e) {
     var settings = {
         "url": "http://192.168.99.102:8500/api/metrics",
         "method": "POST",
-        "timeout": 5,
+        "timeout": 0,
         "headers": {
             "Content-Type": "application/json"
         },
