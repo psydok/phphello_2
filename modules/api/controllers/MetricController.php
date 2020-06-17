@@ -6,21 +6,41 @@ use app\modules\metric\models\Metric;
 use Yii;
 use yii\data\ActiveDataProvider;
 use yii\filters\AccessControl;
+use yii\rest\IndexAction;
 
 
 class MetricController extends \yii\rest\Controller
 {
+    public $modelClass = 'app\modules\metric\models\Metric';
+
     /**
      * GET request on input
      * @return string
      */
     public function actionIndex()
     {
+        $query = Metric::find();
         $dataProvider = new ActiveDataProvider([
-            'query' => Metric::find()
+            'query' => $query,
         ]);
-
         return $dataProvider;
+    }
+    
+    /** @inheritDoc */
+    public function actions()
+    {
+        $actions = [
+            'index' => [
+                'class' => IndexAction::class,
+                'modelClass' => $this->modelClass,
+                'prepareDataProvider' => function () {
+                    $model = new Metric();
+                    return $model::find()->where(Yii::$app->request->queryParams)->all();
+                },
+            ],
+        ];
+
+        return array_merge(parent::actions(), $actions);
     }
 
     /**
