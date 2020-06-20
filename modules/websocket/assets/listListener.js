@@ -14,22 +14,6 @@ ws.addEventListener("message", function (e) {
 
     list.append(listItem);
 
-    var postData = listItem.textContent.substring(listItem.textContent.indexOf(':') + 1, listItem.textContent.length);
-
-    var settings = {
-        "url": "http://192.168.99.102:8500/api/metrics",
-        "method": "POST",
-        "timeout": 0,
-        "headers": {
-            "Content-Type": "application/json"
-        },
-        "data": JSON.stringify(JSON.parse(postData)),
-    };
-
-    $.ajax(settings).done(function (response) {
-        console.log(response);
-    });
-
     while (list.children.length > 10) {
         list.removeChild(list.firstChild);
     }

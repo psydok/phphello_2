@@ -25,7 +25,7 @@ class MetricController extends \yii\rest\Controller
         ]);
         return $dataProvider;
     }
-    
+
     /** @inheritDoc */
     public function actions()
     {

@@ -1,4 +1,5 @@
 <?php
+
 namespace app\commands\ws;
 
 use Amp\Http\Server\Request;
@@ -10,10 +11,8 @@ use Amp\Websocket\Message;
 use Amp\Websocket\Server\ClientHandler;
 use Amp\Websocket\Server\Endpoint;
 use app\modules\metric\models\Metric;
-use http\Message\Body;
-use Yii;
+use Throwable;
 use function Amp\call;
-use function GuzzleHttp\Psr7\str;
 
 /**
  * Class wsHandler
@@ -40,12 +39,24 @@ class wsHandler implements ClientHandler
         return call(function () use ($endpoint, $client): \Generator {
             while ($message = yield $client->receive()) {
                 assert($message instanceof Message);
-
+                $msg = yield $message->buffer();
                 $endpoint->broadcast(\sprintf(
                     '%d: %s',
                     $client->getId(),
-                    yield $message->buffer()
+                    $msg
                 ));
+
+                try {
+                    $data = json_decode($msg);
+
+                    $model = new Metric();
+                    $model->name = $data->{'name'};
+                    $model->field = $data->{'field'};
+                    $model->value = $data->{'value'};
+                    $model->date = date("Y-m-d H:i:s");
+                    $model->save();
+                } catch (Throwable $throwable) {
+                }
             }
         });
     }
